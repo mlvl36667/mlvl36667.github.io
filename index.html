@@ -18,37 +18,6 @@
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="/css/wowchemy.e4f7d488ffa704735aec150d2cb0d1a3.css" />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9882102-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-  gtag('js', new Date());
-  gtag('config', 'UA-9882102-2', {});
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Bence Ladóczki" />
     <link rel="manifest" href="/index.webmanifest" />
@@ -391,9 +360,9 @@
      </div>
     </div>
     <div class="btn-links" style="margin-top: -0.2cm">
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-030-97121-2_21" target="_blank" rel="noopener"> <i class="ai ai-doi mr-1"></i> DOI </a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://eprint.iacr.org/2021/1240" target="_blank" rel="noopener noreferrer"> <i class="fa fa-file-pdf mr-1"></i> PDF </a>
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename="/publication/aranhahnpy22/cite.bib"> <i class="fa fa-quote-left mr-1"></i> BibTeX </a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/BCCA55292.2022.9922365" target="_blank" rel="noopener"> <i class="ai ai-doi mr-1"></i> DOI </a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://lendulet.tmit.bme.hu/lendulet_website/wp-content/papercite-data/pdf/ladoczki2022atomic.pdf" target="_blank" rel="noopener noreferrer"> <i class="fa fa-file-pdf mr-1"></i> PDF </a>
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename="/publication/atomicswap2022/cite.bib"> <i class="fa fa-quote-left mr-1"></i> BibTeX </a>
     </div>
   </div>
   <div class="ml-3">
