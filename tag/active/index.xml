@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Active | Diego F. Aranha</title>
+    <title>Active | Bence Ladóczki</title>
     <link>/tag/active/</link>
       <atom:link href="/tag/active/index.xml" rel="self" type="application/rss+xml" />
     <description>Active</description>
@@ -12,66 +12,6 @@
       <link>/tag/active/</link>
     </image>
     
-    <item>
-      <title>Residue Number Systems for Cryptography</title>
-      <link>/project/renais/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/project/renais/</guid>
-      <description>&lt;p&gt;Modular multiplication is crucial nowadays to the security of Internet connections. It is used to implement conventional public key cryptography for protecting the integrity and confidentiality of electronic communication, and bleeding-edge algorithms securing blockchains and cryptocurrencies. While most of these implementations employ Montgomery modular multiplication as the fundamental building block, alternative representation that favor parallel execution have been overlooked. One such candidate is Residue Number Systems (RNS), which break down large integers into many small residues that can be processed in parallel. RNS arithmetic has demonstrated superior performance in a few niche applications targeting very specific platforms, and it is very intriguing why these results do not translate to commodity processors. This project deals with the challenges of discovering new algorithms and implementation techniques to accelerate RNS arithmetic of cryptographic interest, with a sharp focus on developing formally verified implementations for correctness and consequently security.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mobile Security</title>
-      <link>/project/mobisec/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/project/mobisec/</guid>
-      <description>&lt;p&gt;The effort started with a security analysis of major Brazilian banking applications in the Android platform.
-It considered the SSL/TLS configuration (supported standards, algorithms, and other settings) at the server-side and public key certificate validation performed on the client-side. We discovered that six out of the seven major Brazilian banks did not appropriately protect against man-in-the-middle attacks, making it possible for an attacker in control of the communication infrastructure to collect authentication credentials and sensitive financial information.&lt;/p&gt;
-&lt;p&gt;Vulnerabilities were disclosed to the interested parties in May 2015, following standard industry practice, and the findings received coverage in &lt;a href=&#34;http://g1.globo.com/tecnologia/blog/seguranca-digital/post/apps-de-bancos-brasileiros-tem-deficiencias-de-seguranca-diz-pesquisa.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Brazilian news&lt;/a&gt;. After that, the effort continued beyond the initial disclosure by monitoring security issues in these apps every six months, concluding that security posture oscillates quite a bit as mobile apps receive interface overhauls and new features frequently. These results produced a &lt;a href=&#34;https://www.researchgate.net/publication/362721525_Security_Analysis_of_Brazilian_Mobile_Banking_Apps_on_Android&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;technical report&lt;/a&gt;, which was novel in conducting such an extensive security analysis over a significant amount of time (4 years).&lt;/p&gt;
-&lt;p&gt;In the last few years, the project has been expanded and adapted the prototype approach for the courses taught in Network and Systems Security. The result is a quick training guide using industry-standard tools for students to conduct security analysis that considers aspects of software security, network communication, authentication mechanisms, and privacy. Around 50 Android applications (mainly from Denmark) have been analyzed using this methodology, which surfaced &lt;a href=&#34;https://cs.au.dk/news-events/pages/2021/students-detect-security-breaches-in-popular-apps&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;numerous vulnerabilities&lt;/a&gt; in the insecure deployment of cryptography and API design, weak authentication workflows, and session management. In several cases, the vulnerabilities were critical enough to warrant extremely careful disclosure to the interested parties using secure means.&lt;/p&gt;
-&lt;p&gt;A remarkably successful example that illustrates the effort was the &lt;a href=&#34;%28https://cs.au.dk/news-events/news/show-news/artikel/computer-science-student-from-aarhus-university-helps-improve-the-security-in-mitid%29&#34;&gt;detection of vulnerabilities&lt;/a&gt; related to inadequate information disclosure, social engineering threats, and Denial of Service attacks during the deployment of the new &lt;a href=&#34;https://www.mitid.dk/en-gb/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MitID system&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Verifiable Cryptographic Software</title>
-      <link>/project/verics/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/project/verics/</guid>
-      <description>&lt;p&gt;Zero-knowledge proofs are integral for deploying privacy-preserving cryptocurrencies and other blockchain applications, as they represent a fundamental building block for proving statements about confidential data.&lt;/p&gt;
-&lt;p&gt;The most popular framework for such proofs is based on cryptographic pairings defined over elliptic curves, where pairing-based zero-knowledge Succint Non-Interactive Arguments of Knowledge (zk-SNARKs) underlie private transactions.&lt;/p&gt;
-&lt;p&gt;There has been substantial progress in the past decade towards selecting parameters and implementing pairing-based cryptography efficiently in software. However, current record-setting implementations rely on hand-optimized architecture-specific Assembly code for the underlying field arithmetic and a great deal of manual tuning to unlock the best performance across a range of architectures. This introduces low-level code which is both hard to audit and to verify as correct, and a number of cryptographic libraries have suffered with simple bugs in their arithmetic backend layers as a direct consequence.&lt;/p&gt;
-&lt;p&gt;The project&amp;rsquo;s main goal is then to investigate techniques to develop a formally verified efficient software library for pairing-based cryptography, as means to support current blockchain projects relying on zero-knowledge proofs. This requires extending current frameworks for generation of correct-by-design cryptographic software to efficiently handle arithmetic in extension fields and elliptic curves, among others.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>RELIC is an Efficient LIbrary for Cryptography</title>
-      <link>/project/relic/</link>
-      <pubDate>Sun, 01 Jul 2007 00:00:00 +0000</pubDate>
-      <guid>/project/relic/</guid>
-      <description>&lt;p&gt;RELIC is a modern research-oriented cryptographic meta-toolkit with emphasis on efficiency and flexibility. RELIC can be used to build efficient and usable cryptographic toolkits tailored for specific security levels and algorithmic choices.&lt;/p&gt;
-&lt;h3 id=&#34;goals&#34;&gt;Goals&lt;/h3&gt;
-&lt;p&gt;RELIC is an ongoing project and features will be added on demand. The focus is to provide:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ease of portability and inclusion of architecture-dependent code&lt;/li&gt;
-&lt;li&gt;Simple experimentation with alternative implementations&lt;/li&gt;
-&lt;li&gt;Tests and benchmarks for every implemented function&lt;/li&gt;
-&lt;li&gt;Flexible configuration&lt;/li&gt;
-&lt;li&gt;Maximum efficiency&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;algorithms&#34;&gt;Algorithms&lt;/h3&gt;
-&lt;p&gt;RELIC implements to date:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Multiple-precision integer arithmetic&lt;/li&gt;
-&lt;li&gt;Prime and Binary field arithmetic&lt;/li&gt;
-&lt;li&gt;Elliptic curves over prime and binary fields (NIST curves and pairing-friendly curves)&lt;/li&gt;
-&lt;li&gt;Bilinear maps and related extension fields&lt;/li&gt;
-&lt;li&gt;Cryptographic protocols (RSA, Rabin, ECDSA, ECMQV, ECSS (Schnorr), ECIES, Sakai-Ohgishi-Kasahara ID-based authenticated key agreement, Boneh-Lynn-Schacham and Boneh-Boyen short signatures, Paillier and Benaloh homomorphic encryption systems)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
     
   </channel>
 </rss>
