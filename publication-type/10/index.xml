@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>10 | Diego F. Aranha</title>
+    <link>/publication-type/10/</link>
+      <atom:link href="/publication-type/10/index.xml" rel="self" type="application/rss+xml" />
+    <description>10</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>10</title>
+      <link>/publication-type/10/</link>
+    </image>
+    
+    <item>
+      <title>Computer Security by Hardware-Intrinsic Authentication</title>
+      <link>/publication/hoffmanaca20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/hoffmanaca20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Secure and efficient software implementation of QC-MDPC code-based cryptography</title>
+      <link>/publication/guimaraesab20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/guimaraesab20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Curve25519 Implementation for ARM Microcontrollers</title>
+      <link>/publication/fujiia18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/fujiia18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluation of Timing Side-Channel Leakage on a Multiple-Target Dynamic Binary Translator</title>
+      <link>/publication/napolirab18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/napolirab18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Execução de código arbitrário na urna eletrônica brasileira</title>
+      <link>/publication/aranhabcam18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhabcam18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finite Field Arithmetic Using AVX-512 For Isogeny-Based Cryptography</title>
+      <link>/publication/orisakala18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/orisakala18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>O que é criptografia fim-a-fim e o que devemos fazer a respeito?</title>
+      <link>/publication/aranha18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/aranha18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Provendo Segurança e Privacidade em Coordenação Distribuída e Extensível</title>
+      <link>/publication/florianoaas18br/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/florianoaas18br/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security Analysis of Brazilian Mobile Banking Apps on Android</title>
+      <link>/publication/cruzca18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/cruzca18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Análise de segurança da distribuição de raízes na ICP-Brasil</title>
+      <link>/publication/ribeirofa17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/ribeirofa17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benchmarking tools for verification of constant-time execution</title>
+      <link>/publication/lopesa17br/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/lopesa17br/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>O Computador para o Século 21: Desafios de Segurança e Privacidade após 25 anos</title>
+      <link>/publication/oliveirapmabnw17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveirapmabnw17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimizing the decoding process of a post-quantum cryptographic algorithm</title>
+      <link>/publication/guimaraesba17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/guimaraesba17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacidade em Dados Armazenados em Memória Compartilhada através de Espaços de Tuplas</title>
+      <link>/publication/florianoaas17br/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/florianoaas17br/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A framework for searching encrypted databases</title>
+      <link>/publication/alvesa16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/alvesa16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AdC: um Mecanismo de Controle de Acesso para o Ciclo de Vida das Coisas Inteligentes</title>
+      <link>/publication/netofcnncglapo16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/netofcnncglapo16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amostragem Gaussiana aplicada à Criptografia Baseada em Reticulados&lt;</title>
+      <link>/publication/ortizad16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/ortizad16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Canais laterais em criptografia simétrica e de curvas elı́pticas: ataques e contramedidas</title>
+      <link>/publication/ladeiranvdal16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/ladeiranvdal16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CCA1-secure somewhat homomorphic encryption</title>
+      <link>/publication/moraisad16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/moraisad16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computação sobre dados cifrados em GPGPUs</title>
+      <link>/publication/alvesa16pt/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/alvesa16pt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Software Implementations of Fantomas</title>
+      <link>/publication/cruza16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/cruza16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extensão do conjunto de instruções para implementação segura de X25519</title>
+      <link>/publication/guimaraesba16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/guimaraesba16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação compacta do algoritmo Ketje</title>
+      <link>/publication/gregorekia16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/gregorekia16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação eficiente do algoritmo Keyak para ARMv8</title>
+      <link>/publication/moraesa16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/moraesa16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação eficiente e segura de cifras de fluxo</title>
+      <link>/publication/cunhaca16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/cunhaca16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protótipo para exfiltração óptica de dados em máquinas fisicamente isoladas</title>
+      <link>/publication/lopesa16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/lopesa16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uma versão não-interativa do k-NN sobre dados cifrados</title>
+      <link>/publication/pereiraa16b/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/pereiraa16b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Análise de segurança em aplicativos bancários na plataforma Android</title>
+      <link>/publication/cruza15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/cruza15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cuYASHE: Computação sobre dados cifrados em GPGPUs</title>
+      <link>/publication/alvesa15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/alvesa15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FlowTracker: Detecção de Código Nao Isócrono via Análise Estática de Fluxo</title>
+      <link>/publication/rodriguesrap15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/rodriguesrap15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação Eficiente e Segura de Algoritmos Criptográficos</title>
+      <link>/publication/faz-hernandezcal15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/faz-hernandezcal15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação eficiente em software da função Lyra2 em arquiteturas modernas</title>
+      <link>/publication/goncalvesa15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/goncalvesa15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação em Tempo Constante de Amostragem de Gaussianas Discretas</title>
+      <link>/publication/ortizad15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/ortizad15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Principal Component Analysis over encrypted data using homomorphic encryption (short paper)</title>
+      <link>/publication/pereiraa15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/pereiraa15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uma Técnica de Análise Estática para Detecção de Canais Laterais Baseados em Tempo</title>
+      <link>/publication/rodriguespa15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/rodriguespa15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zkPAKE: A Simple Augmented PAKE Protocol (short paper)</title>
+      <link>/publication/mochettira15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/mochettira15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>(In)segurança do voto eletrônico no Brasil</title>
+      <link>/publication/aranhakms14br/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhakms14br/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anais do XIV Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais (SBSeg)</title>
+      <link>/publication/sbseg2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/sbseg2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação eficiente de algoritmos para teste de primalidade</title>
+      <link>/publication/ribeiroa14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/ribeiroa14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aritmética eficiente em curvas elípticas no modelo de Huff</title>
+      <link>/publication/sousaa13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/sousaa13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cifração autenticada utilizando PUFs</title>
+      <link>/publication/resendea13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/resendea13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação eficiente de emparelhamentos bilineares sobre curvas elípticas na plataforma ARM</title>
+      <link>/publication/tairaa13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/tairaa13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vulnerabilidades no software da urna eletrônica brasileira</title>
+      <link>/publication/aranhakms13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhakms13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação eficiente em software de curvas elípticas e emparelhamentos bilineares</title>
+      <link>/publication/aranhal12a/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhal12a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação eficiente em software de curvas elípticas e emparelhamentos bilineares</title>
+      <link>/publication/aranhal12b/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhal12b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paralelização em software do Algoritmo de Miller</title>
+      <link>/publication/aranhal09/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhal09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Certificateless Signcryption</title>
+      <link>/publication/aranhacld08/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhacld08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação eficiente de criptografia de curvas elípticas em sensores sem fio</title>
+      <link>/publication/aranhaclod08/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhaclod08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Um framework para definição e análise de modelos de consistência de memória</title>
+      <link>/publication/mendesamd0502/</link>
+      <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
+      <guid>/publication/mendesamd0502/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

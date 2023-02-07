@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Francisco Rodríguez-Henríquez | Diego F. Aranha</title>
+    <link>/authors/francisco-rodriguez-henriquez/</link>
+      <atom:link href="/authors/francisco-rodriguez-henriquez/index.xml" rel="self" type="application/rss+xml" />
+    <description>Francisco Rodríguez-Henríquez</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Francisco Rodríguez-Henríquez</title>
+      <link>/authors/francisco-rodriguez-henriquez/</link>
+    </image>
+    
+    <item>
+      <title>LOVE a Pairing</title>
+      <link>/publication/aranhapr21/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhapr21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast Point Multiplication Algorithms for Binary Elliptic Curves with and without Precomputation</title>
+      <link>/publication/oliveiraahr14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveiraahr14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two is the fastest prime: lambda coordinates for binary elliptic curves</title>
+      <link>/publication/oliveiralar14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveiralar14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lambda Coordinates for Binary Elliptic Curves</title>
+      <link>/publication/oliveiralar13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveiralar13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Faster Implementation of Scalar Multiplication on Koblitz Curves</title>
+      <link>/publication/aranhaflr12/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhaflr12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementing Pairings at the 192-Bit Security Level</title>
+      <link>/publication/aranhafkmr12/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhafkmr12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parallelizing the Weil and Tate Pairings</title>
+      <link>/publication/aranhakmr11/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhakmr11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Implementation of Binary Elliptic Curves: Impact of the Carry-Less Multiplier on Scalar Multiplication</title>
+      <link>/publication/tavernefarhl11b/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/tavernefarhl11b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Speeding scalar multiplication over binary elliptic curves using the new carry-less multiplication instruction</title>
+      <link>/publication/tavernefarhl11a/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/tavernefarhl11a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laura Fuentes-Castañeda | Diego F. Aranha</title>
+    <link>/authors/laura-fuentes-castaneda/</link>
+      <atom:link href="/authors/laura-fuentes-castaneda/index.xml" rel="self" type="application/rss+xml" />
+    <description>Laura Fuentes-Castañeda</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Laura Fuentes-Castañeda</title>
+      <link>/authors/laura-fuentes-castaneda/</link>
+    </image>
+    
+    <item>
+      <title>Implementing Pairings at the 192-Bit Security Level</title>
+      <link>/publication/aranhafkmr12/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhafkmr12/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

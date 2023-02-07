@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pedro Y. S. Barbosa | Diego F. Aranha</title>
+    <link>/authors/pedro-y.-s.-barbosa/</link>
+      <atom:link href="/authors/pedro-y.-s.-barbosa/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pedro Y. S. Barbosa</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Pedro Y. S. Barbosa</title>
+      <link>/authors/pedro-y.-s.-barbosa/</link>
+    </image>
+    
+    <item>
+      <title>Execução de código arbitrário na urna eletrônica brasileira</title>
+      <link>/publication/aranhabcam18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhabcam18/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rogério V. M. Rocha | Diego F. Aranha</title>
+    <link>/authors/rogerio-v.-m.-rocha/</link>
+      <atom:link href="/authors/rogerio-v.-m.-rocha/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rogério V. M. Rocha</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Rogério V. M. Rocha</title>
+      <link>/authors/rogerio-v.-m.-rocha/</link>
+    </image>
+    
+    <item>
+      <title>A Differentially Private Hybrid Approach to Traffic Monitoring</title>
+      <link>/publication/rochalpa21/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rochalpa21/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

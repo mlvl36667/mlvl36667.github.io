@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eduardo Morais | Diego F. Aranha</title>
+    <link>/authors/eduardo-morais/</link>
+      <atom:link href="/authors/eduardo-morais/index.xml" rel="self" type="application/rss+xml" />
+    <description>Eduardo Morais</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2008 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Eduardo Morais</title>
+      <link>/authors/eduardo-morais/</link>
+    </image>
+    
+    <item>
+      <title>On the Identity-Based Encryption for WM² Nets</title>
+      <link>/publication/oliveiraamdld08/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveiraamdld08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TinyTate: Computing the Tate Pairing in Resource-Constrained Sensor Nodes</title>
+      <link>/publication/oliveiraamdld07/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveiraamdld07/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

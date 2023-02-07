@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses | Diego F. Aranha</title>
+    <link>/courses/</link>
+      <atom:link href="/courses/index.xml" rel="self" type="application/rss+xml" />
+    <description>Courses</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Courses</title>
+      <link>/courses/</link>
+    </image>
+    
+    <item>
+      <title>University of Brasília</title>
+      <link>/courses/unb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/courses/unb/</guid>
+      <description>&lt;p&gt;2/2013:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheet/pub?key=0AgyUaEvgJMOndEJoTkNNdjZPRkRtbXhfYmdRc2dzZWc&amp;amp;output=html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIC 116432 - Software Básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://aprender.unb.br/course/view.php?id=4881&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIC 116947 - Programação Competitiva&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1/2013:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheet/pub?key=0AgyUaEvgJMOndEJoTkNNdjZPRkRtbXhfYmdRc2dzZWc&amp;amp;output=html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIC 116432 - Software Básico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheet/pub?key=0AgyUaEvgJMOndFUxWEdURXl2WVdSa3JfTE1URUV6QkE&amp;amp;output=html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIC 116548 - Teoria da Codificação e Criptografia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://aprender.unb.br/course/view.php?id=4881&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIC 116947 - Programação Competitiva&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2/2012:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://aprender.unb.br/course/view.php?id=4881&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIC 116947 - Programação Competitiva&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheet/pub?key=0AgyUaEvgJMOndDl3aE1mZ2NTMEZnNnFkTFFVX1pkc2c&amp;amp;output=html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIC 117251 - Arquitetura de Processadores Digitais&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheet/pub?key=0AgyUaEvgJMOndHo1VmtIZlNTU1hVOF9DM2RRUjltbXc&amp;amp;output=html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIC 117366 - Lógica Computacional 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheet/pub?key=0AgyUaEvgJMOndEJrMzB6SzY5T1RnT212OFo2Y05xdGc&amp;amp;output=html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIC 316504 - Tópicos em Fundamentos e Métodos de Computação&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1/2012:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.google.com/spreadsheet/pub?key=0AgyUaEvgJMOndEUwdW9GeWozMktFTVMtMDNnQTlScVE&amp;amp;output=html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIC 116548 - Teoria da Codificação e Criptografia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.google.com/spreadsheet/pub?key=0AgyUaEvgJMOndFdHMjE4SVVSbExoQlRrVUhBN0ZJSWc&amp;amp;output=html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIC 116785 - Programação Orientada a Objetos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.google.com/spreadsheet/pub?key=0AgyUaEvgJMOndHFybWpvQjBRakNiYU55UVNyRHU0LUE&amp;amp;output=html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIC 117251 - Arquitetura de Processadores Digitais&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>University of Campinas</title>
+      <link>/courses/unicamp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/courses/unicamp/</guid>
+      <description>&lt;p&gt;2/2017:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/17ED8AYCqBWNiubSQX5IZX408dJO_O_nX5rwGXl6_pSY/pubhtml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MC621A/MC821A - Desafios de Programação II e IV&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1/2017:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/11_dfB1B1iTqjfMBjoWBtLkD14kCxDHsw-wsUbvIfaNg/pubhtml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MC889A/MO421A - Introduction to Cryptography&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/10vnN5rDPN1sg0sV9hvUy7vycyyXNa51S34caTPD54Fw/pubhtml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MC521A/MC721A - Desafios de Programação I e III&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2/2016:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/13W2KSn5FvVRQBmN5781oQP43vLt8HM5XMdxs1EoOc38/pubhtml#&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MC102XY - Algoritmos e Programação de Computadores&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ic.unicamp.br/~maratona/wiki/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MC621A/MC821A - Desafios de Programação II e IV&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2/2015:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1vdVgL0jEe4KQC76U3UxND-TIktitBrCq9cj3eSsLBaI/pubhtml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MC102XY - Algoritmos e Programação de Computadores&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/10Wsz6pzZwOyWJaxKa8v5HGYQwiUss3C-UU_xEx1V6W8/pubhtml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MC931B/MO834D - Secure Programming and Malware Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1/2015:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheet/pub?key=0AgyUaEvgJMOndHNzSHpTVUpPak5Jdmw2MjB5cEU4anc&amp;amp;output=html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MC404AB - Organização de Computadores e Linguagens de Montagem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheet/pub?key=0AgyUaEvgJMOndEJCR2ZNRTVWNnppazFtZUZYVFlQQ3c&amp;amp;output=html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MC889A/MO421A - Introduction to Cryptography&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2/2014:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheet/pub?key=0AgyUaEvgJMOndGZoSGQ5TVFzbkQ4YW50c0ViUjV3SWc&amp;amp;output=html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MC404AB - Organização de Computadores e Linguagens de Montagem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheet/pub?key=0AgyUaEvgJMOndE4taTJEUGtkOFFFLWFlLXRTVEJlTmc&amp;amp;output=html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MO417AB - Algorithm Complexity I&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1/2014:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheet/pub?key=0AgyUaEvgJMOndGd2RlU1alVYY0pNVWV0NTVMQ1VKS0E&amp;amp;output=html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MC404E - Organização de Computadores e Linguagens de Montagem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

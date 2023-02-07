@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 | Diego F. Aranha</title>
+    <link>/publication-type/7/</link>
+      <atom:link href="/publication-type/7/index.xml" rel="self" type="application/rss+xml" />
+    <description>7</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>7</title>
+      <link>/publication-type/7/</link>
+    </image>
+    
+    <item>
+      <title>Efficient software implementation of elliptic curves and bilinear pairings</title>
+      <link>/publication/aranha11/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/aranha11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Serviço de nomes e roteamento para redes de anonimização de tráfego</title>
+      <link>/publication/aranha07/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/aranha07/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

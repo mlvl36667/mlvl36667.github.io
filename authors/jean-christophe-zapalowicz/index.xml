@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jean-Christophe Zapalowicz | Diego F. Aranha</title>
+    <link>/authors/jean-christophe-zapalowicz/</link>
+      <atom:link href="/authors/jean-christophe-zapalowicz/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jean-Christophe Zapalowicz</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Jean-Christophe Zapalowicz</title>
+      <link>/authors/jean-christophe-zapalowicz/</link>
+    </image>
+    
+    <item>
+      <title>Binary Elligator Squared</title>
+      <link>/publication/aranhafqtz14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhafqtz14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GLV/GLS Decomposition, Power Analysis, and Attacks on ECDSA Signatures with Single-Bit Nonce Bias</title>
+      <link>/publication/aranhafgktz14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhafgktz14/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

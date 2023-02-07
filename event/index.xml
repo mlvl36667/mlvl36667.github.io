@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Invited and Contributed Talks | Diego F. Aranha</title>
+    <link>/event/</link>
+      <atom:link href="/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Invited and Contributed Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Invited and Contributed Talks</title>
+      <link>/event/</link>
+    </image>
+    
+    <item>
+      <title>Introduction to blockchain technology</title>
+      <link>/talk/introduction-to-blockchain-technology/</link>
+      <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>/talk/introduction-to-blockchain-technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient software implementation of curve-based cryptography</title>
+      <link>/talk/efficient-software-implementation-of-curve-based-cryptography/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>/talk/efficient-software-implementation-of-curve-based-cryptography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experimenting with Faster Elliptic Curves in Rust</title>
+      <link>/talk/experimenting-with-faster-elliptic-curves-in-rust/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      <guid>/talk/experimenting-with-faster-elliptic-curves-in-rust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pitfalls in securing (Danish) mobile apps</title>
+      <link>/talk/pitfalls-in-securing-danish-mobile-apps/</link>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      <guid>/talk/pitfalls-in-securing-danish-mobile-apps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A brief history of the Brazilian Crypto Wars</title>
+      <link>/talk/a-brief-history-of-the-brazilian-crypto-wars/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      <guid>/talk/a-brief-history-of-the-brazilian-crypto-wars/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LadderLeak: Breaking ECDSA With Less Than One Bit Of Nonce Leakage</title>
+      <link>/talk/ladderleak-breaking-ecdsa-with-less-than-one-bit-of-nonce-leakage/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/talk/ladderleak-breaking-ecdsa-with-less-than-one-bit-of-nonce-leakage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security and privacy challenges in modern embedded systems</title>
+      <link>/talk/security-and-privacy-challenges-in-modern-embedded-systems/</link>
+      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/talk/security-and-privacy-challenges-in-modern-embedded-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can blockchains make voting more secure?</title>
+      <link>/talk/can-blockchains-make-voting-more-secure/</link>
+      <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/talk/can-blockchains-make-voting-more-secure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Return of the insecure Brazilian voting machines</title>
+      <link>/talk/return-of-the-insecure-brazilian-voting-machines/</link>
+      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/talk/return-of-the-insecure-brazilian-voting-machines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leave crypto alone: myths, challendes and opportunities</title>
+      <link>/talk/leave-crypto-alone-myths-challendes-and-opportunities/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/talk/leave-crypto-alone-myths-challendes-and-opportunities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pairings are not dead, just resting</title>
+      <link>/talk/pairings-are-not-dead-just-resting/</link>
+      <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/talk/pairings-are-not-dead-just-resting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to pairings</title>
+      <link>/talk/introduction-to-pairings/</link>
+      <pubDate>Fri, 10 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/talk/introduction-to-pairings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lightweight cryptography on ARM</title>
+      <link>/talk/lightweight-cryptography-on-arm/</link>
+      <pubDate>Thu, 20 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>/talk/lightweight-cryptography-on-arm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software vulnerabilities in the Brazilian voting machine</title>
+      <link>/talk/software-vulnerabilities-in-the-brazilian-voting-machine/</link>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/talk/software-vulnerabilities-in-the-brazilian-voting-machine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software implementation of bilinear pairings</title>
+      <link>/talk/software-implementation-of-bilinear-pairings/</link>
+      <pubDate>Sun, 23 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>/talk/software-implementation-of-bilinear-pairings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security of electronic voting in Brazil</title>
+      <link>/talk/security-of-electronic-voting-in-brazil/</link>
+      <pubDate>Sat, 22 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>/talk/security-of-electronic-voting-in-brazil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient binary field arithmetic and applications to curve-based cryptography</title>
+      <link>/talk/efficient-binary-field-arithmetic-and-applications-to-curve-based-cryptography/</link>
+      <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>/talk/efficient-binary-field-arithmetic-and-applications-to-curve-based-cryptography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security analysis of Brazilian voting machines</title>
+      <link>/talk/security-analysis-of-brazilian-voting-machines/</link>
+      <pubDate>Mon, 06 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>/talk/security-analysis-of-brazilian-voting-machines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient software implementation of binary field arithmetic using vector instruction sets</title>
+      <link>/talk/efficient-software-implementation-of-binary-field-arithmetic-using-vector-instruction-sets/</link>
+      <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>/talk/efficient-software-implementation-of-binary-field-arithmetic-using-vector-instruction-sets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software implementation of pairings</title>
+      <link>/talk/software-implementation-of-pairings/</link>
+      <pubDate>Mon, 19 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>/talk/software-implementation-of-pairings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-speed parallel software implementation of the nT pairing</title>
+      <link>/talk/high-speed-parallel-software-implementation-of-the-nt-pairing/</link>
+      <pubDate>Mon, 12 Oct 2009 00:00:00 +0000</pubDate>
+      <guid>/talk/high-speed-parallel-software-implementation-of-the-nt-pairing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

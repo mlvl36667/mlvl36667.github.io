@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tomas Kulik | Diego F. Aranha</title>
+    <link>/authors/tomas-kulik/</link>
+      <atom:link href="/authors/tomas-kulik/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tomas Kulik</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Tomas Kulik</title>
+      <link>/authors/tomas-kulik/</link>
+    </image>
+    
+    <item>
+      <title>Formal Model In-The-Loop for Secure Industrial Control Networks</title>
+      <link>/publication/ubysvklba22/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/ubysvklba22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formally Verified Credentials Management for Industrial Control Systems</title>
+      <link>/publication/kulikba21/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/kulikba21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Formally Verified Key Management for Industrial Control Systems</title>
+      <link>/publication/kulikba20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/kulikba20/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

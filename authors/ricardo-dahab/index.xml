@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ricardo Dahab | Diego F. Aranha</title>
+    <link>/authors/ricardo-dahab/</link>
+      <atom:link href="/authors/ricardo-dahab/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ricardo Dahab</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Ricardo Dahab</title>
+      <link>/authors/ricardo-dahab/</link>
+    </image>
+    
+    <item>
+      <title>The Ring-LWE Problem in Lattice-Based Cryptography: The Case of Twisted Embeddings</title>
+      <link>/publication/ortizaacd21/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/ortizaacd21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amostragem Gaussiana aplicada à Criptografia Baseada em Reticulados&lt;</title>
+      <link>/publication/ortizad16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/ortizad16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Canais laterais em criptografia simétrica e de curvas elı́pticas: ataques e contramedidas</title>
+      <link>/publication/ladeiranvdal16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/ladeiranvdal16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação em Tempo Constante de Amostragem de Gaussianas Discretas</title>
+      <link>/publication/ortizad15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/ortizad15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TinyPBC: Pairings for authenticated identity-based non-interactive key distribution in sensor networks</title>
+      <link>/publication/oliveiraagscld11/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveiraagscld11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient implementation of elliptic curve cryptography in wireless sensors</title>
+      <link>/publication/aranhadlo10/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhadlo10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient implementation of elliptic curves on sensor nodes</title>
+      <link>/publication/aranhalod09/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhalod09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NanoPBC: implementing cryptographic pairings on an 8-bit platform</title>
+      <link>/publication/aranhaold09/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhaold09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Certificateless Signcryption</title>
+      <link>/publication/aranhacld08/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhacld08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação eficiente de criptografia de curvas elípticas em sensores sem fio</title>
+      <link>/publication/aranhaclod08/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhaclod08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Identity-Based Encryption for WM² Nets</title>
+      <link>/publication/oliveiraamdld08/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveiraamdld08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TinyTate: Computing the Tate Pairing in Resource-Constrained Sensor Nodes</title>
+      <link>/publication/oliveiraamdld07/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveiraamdld07/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

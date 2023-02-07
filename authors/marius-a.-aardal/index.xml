@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marius A. Aardal | Diego F. Aranha</title>
+    <link>/authors/marius-a.-aardal/</link>
+      <atom:link href="/authors/marius-a.-aardal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Marius A. Aardal</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Marius A. Aardal</title>
+      <link>/authors/marius-a.-aardal/</link>
+    </image>
+    
+    <item>
+      <title>2DT-GLS: Faster and exception-free scalar multiplication in the GLS254 binary curve</title>
+      <link>/publication/aardala22/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/aardala22/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

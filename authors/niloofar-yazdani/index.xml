@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Niloofar Yazdani | Diego F. Aranha</title>
+    <link>/authors/niloofar-yazdani/</link>
+      <atom:link href="/authors/niloofar-yazdani/index.xml" rel="self" type="application/rss+xml" />
+    <description>Niloofar Yazdani</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Niloofar Yazdani</title>
+      <link>/authors/niloofar-yazdani/</link>
+    </image>
+    
+    <item>
+      <title>Side Channel Security of Smart Meter Data Compression Techniques</title>
+      <link>/publication/feheryalhv20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/feheryalhv20/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reza Azarderakhsh | Diego F. Aranha</title>
+    <link>/authors/reza-azarderakhsh/</link>
+      <atom:link href="/authors/reza-azarderakhsh/index.xml" rel="self" type="application/rss+xml" />
+    <description>Reza Azarderakhsh</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Reza Azarderakhsh</title>
+      <link>/authors/reza-azarderakhsh/</link>
+    </image>
+    
+    <item>
+      <title>Efficient Software Implementation of Laddering Algorithms Over Binary Elliptic Curves</title>
+      <link>/publication/aranhaak17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhaak17/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

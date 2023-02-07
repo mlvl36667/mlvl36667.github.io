@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Carlos Gregoreki | Diego F. Aranha</title>
+    <link>/authors/carlos-gregoreki/</link>
+      <atom:link href="/authors/carlos-gregoreki/index.xml" rel="self" type="application/rss+xml" />
+    <description>Carlos Gregoreki</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Carlos Gregoreki</title>
+      <link>/authors/carlos-gregoreki/</link>
+    </image>
+    
+    <item>
+      <title>Implementação compacta do algoritmo Ketje</title>
+      <link>/publication/gregorekia16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/gregorekia16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

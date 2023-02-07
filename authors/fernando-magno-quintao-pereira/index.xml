@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fernando Magno Quintão Pereira | Diego F. Aranha</title>
+    <link>/authors/fernando-magno-quintao-pereira/</link>
+      <atom:link href="/authors/fernando-magno-quintao-pereira/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fernando Magno Quintão Pereira</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Fernando Magno Quintão Pereira</title>
+      <link>/authors/fernando-magno-quintao-pereira/</link>
+    </image>
+    
+    <item>
+      <title>The computer for the 21st century: present security &amp; privacy challenges</title>
+      <link>/publication/oliveirapmabnww18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveirapmabnww18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>O Computador para o Século 21: Desafios de Segurança e Privacidade após 25 anos</title>
+      <link>/publication/oliveirapmabnw17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveirapmabnw17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Computer for the 21st Century: Security &amp; Privacy Challenges after 25 Years</title>
+      <link>/publication/oliveirapmabl17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveirapmabl17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sparse representation of implicit flows with applications to side-channel detection</title>
+      <link>/publication/rodriguespa16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/rodriguespa16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FlowTracker: Detecção de Código Nao Isócrono via Análise Estática de Fluxo</title>
+      <link>/publication/rodriguesrap15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/rodriguesrap15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uma Técnica de Análise Estática para Detecção de Canais Laterais Baseados em Tempo</title>
+      <link>/publication/rodriguespa15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/rodriguespa15/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

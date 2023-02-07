@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Patrick Longa | Diego F. Aranha</title>
+    <link>/authors/patrick-longa/</link>
+      <atom:link href="/authors/patrick-longa/index.xml" rel="self" type="application/rss+xml" />
+    <description>Patrick Longa</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Patrick Longa</title>
+      <link>/authors/patrick-longa/</link>
+    </image>
+    
+    <item>
+      <title>The Realm of the Pairings</title>
+      <link>/publication/aranhablr13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhablr13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Faster Explicit Formulas for Computing Pairings over Ordinary Curves</title>
+      <link>/publication/aranhaklgl11/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhaklgl11/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

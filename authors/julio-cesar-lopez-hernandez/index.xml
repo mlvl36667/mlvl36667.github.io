@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Julio César López-Hernández | Diego F. Aranha</title>
+    <link>/authors/julio-cesar-lopez-hernandez/</link>
+      <atom:link href="/authors/julio-cesar-lopez-hernandez/index.xml" rel="self" type="application/rss+xml" />
+    <description>Julio César López-Hernández</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Julio César López-Hernández</title>
+      <link>/authors/julio-cesar-lopez-hernandez/</link>
+    </image>
+    
+    <item>
+      <title>Finite Field Arithmetic Using AVX-512 For Isogeny-Based Cryptography</title>
+      <link>/publication/orisakala18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/orisakala18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Secure and Efficient Implementation of the Quotient Digital Signature Algorithm (qDSA)</title>
+      <link>/publication/faz-hernandezfa17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/faz-hernandezfa17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PRESENT Runs Fast - Efficient and Secure Implementation in Software</title>
+      <link>/publication/reisal17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/reisal17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Canais laterais em criptografia simétrica e de curvas elı́pticas: ataques e contramedidas</title>
+      <link>/publication/ladeiranvdal16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/ladeiranvdal16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lightweight cryptography on ARM</title>
+      <link>/publication/cruzralp16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/cruzralp16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação Eficiente e Segura de Algoritmos Criptográficos</title>
+      <link>/publication/faz-hernandezcal15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/faz-hernandezcal15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast Point Multiplication Algorithms for Binary Elliptic Curves with and without Precomputation</title>
+      <link>/publication/oliveiraahr14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveiraahr14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two is the fastest prime: lambda coordinates for binary elliptic curves</title>
+      <link>/publication/oliveiralar14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveiralar14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lambda Coordinates for Binary Elliptic Curves</title>
+      <link>/publication/oliveiralar13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveiralar13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Faster Implementation of Scalar Multiplication on Koblitz Curves</title>
+      <link>/publication/aranhaflr12/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhaflr12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação eficiente em software de curvas elípticas e emparelhamentos bilineares</title>
+      <link>/publication/aranhal12a/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhal12a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação eficiente em software de curvas elípticas e emparelhamentos bilineares</title>
+      <link>/publication/aranhal12b/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhal12b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Secure-TWS: Authenticating Node to Multi-user Communication in Shared Sensor Networks</title>
+      <link>/publication/oliveirakgalpgz12/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveirakgalpgz12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Faster Explicit Formulas for Computing Pairings over Ordinary Curves</title>
+      <link>/publication/aranhaklgl11/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhaklgl11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Implementation of Binary Elliptic Curves: Impact of the Carry-Less Multiplier on Scalar Multiplication</title>
+      <link>/publication/tavernefarhl11b/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/tavernefarhl11b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Speeding scalar multiplication over binary elliptic curves using the new carry-less multiplication instruction</title>
+      <link>/publication/tavernefarhl11a/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/tavernefarhl11a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TinyPBC: Pairings for authenticated identity-based non-interactive key distribution in sensor networks</title>
+      <link>/publication/oliveiraagscld11/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveiraagscld11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient implementation of elliptic curve cryptography in wireless sensors</title>
+      <link>/publication/aranhadlo10/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhadlo10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Software Implementation of Binary Field Arithmetic Using Vector Instruction Sets</title>
+      <link>/publication/aranhalh10b/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhalh10b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-Speed Parallel Software Implementation of the ηT Pairing</title>
+      <link>/publication/aranhalh10a/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhalh10a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient implementation of elliptic curves on sensor nodes</title>
+      <link>/publication/aranhalod09/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhalod09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-Speed Parallel Software Implementation of the $η_T$ Pairing</title>
+      <link>/publication/aranhalh09/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhalh09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NanoPBC: implementing cryptographic pairings on an 8-bit platform</title>
+      <link>/publication/aranhaold09/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhaold09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paralelização em software do Algoritmo de Miller</title>
+      <link>/publication/aranhal09/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhal09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Certificateless Signcryption</title>
+      <link>/publication/aranhacld08/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhacld08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementação eficiente de criptografia de curvas elípticas em sensores sem fio</title>
+      <link>/publication/aranhaclod08/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhaclod08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Identity-Based Encryption for WM² Nets</title>
+      <link>/publication/oliveiraamdld08/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveiraamdld08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TinyTate: Computing the Tate Pairing in Resource-Constrained Sensor Nodes</title>
+      <link>/publication/oliveiraamdld07/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveiraamdld07/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

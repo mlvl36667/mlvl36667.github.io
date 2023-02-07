@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Otávio Oliveira Napoli | Diego F. Aranha</title>
+    <link>/authors/otavio-oliveira-napoli/</link>
+      <atom:link href="/authors/otavio-oliveira-napoli/index.xml" rel="self" type="application/rss+xml" />
+    <description>Otávio Oliveira Napoli</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Otávio Oliveira Napoli</title>
+      <link>/authors/otavio-oliveira-napoli/</link>
+    </image>
+    
+    <item>
+      <title>Evaluation and Mitigation of Timing Side-Channel Leakages on Multiple-Target Dynamic Binary Translators</title>
+      <link>/publication/napolirab20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/napolirab20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluation of Timing Side-Channel Leakage on a Multiple-Target Dynamic Binary Translator</title>
+      <link>/publication/napolirab18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/napolirab18/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

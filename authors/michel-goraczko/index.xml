@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michel Goraczko | Diego F. Aranha</title>
+    <link>/authors/michel-goraczko/</link>
+      <atom:link href="/authors/michel-goraczko/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michel Goraczko</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Michel Goraczko</title>
+      <link>/authors/michel-goraczko/</link>
+    </image>
+    
+    <item>
+      <title>Secure-TWS: Authenticating Node to Multi-user Communication in Shared Sensor Networks</title>
+      <link>/publication/oliveirakgalpgz12/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveirakgalpgz12/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

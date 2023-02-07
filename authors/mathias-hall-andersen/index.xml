@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathias Hall-Andersen | Diego F. Aranha</title>
+    <link>/authors/mathias-hall-andersen/</link>
+      <atom:link href="/authors/mathias-hall-andersen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mathias Hall-Andersen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Mathias Hall-Andersen</title>
+      <link>/authors/mathias-hall-andersen/</link>
+    </image>
+    
+    <item>
+      <title>Count Me In! Extendability for Threshold Ring Signatures</title>
+      <link>/publication/aranhahnpy22/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhahnpy22/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

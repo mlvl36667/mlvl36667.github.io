@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Victor H. H. Taira | Diego F. Aranha</title>
+    <link>/authors/victor-h.-h.-taira/</link>
+      <atom:link href="/authors/victor-h.-h.-taira/index.xml" rel="self" type="application/rss+xml" />
+    <description>Victor H. H. Taira</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Victor H. H. Taira</title>
+      <link>/authors/victor-h.-h.-taira/</link>
+    </image>
+    
+    <item>
+      <title>Implementação eficiente de emparelhamentos bilineares sobre curvas elípticas na plataforma ARM</title>
+      <link>/publication/tairaa13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/tairaa13/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

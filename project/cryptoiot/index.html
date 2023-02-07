@@ -1,0 +1,2908 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.1.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Diego F. Aranha[&lt;sup&gt;&lt;font size=&#34;2&#34;&gt;&lt;i class=&#34;fas fa-volume-up&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/sup&gt;](https://forvo.com/search/aranha/)" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Efficient and Secure Cryptography for IoT" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="/project/cryptoiot/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="rgb(252, 145, 58)" />
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.e4f7d488ffa704735aec150d2cb0d1a3.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9882102-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-9882102-2', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="/project/cryptoiot/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Diego F. Aranha" />
+  <meta property="og:url" content="/project/cryptoiot/" />
+  <meta property="og:title" content="Crypto for IoT | Diego F. Aranha" />
+  <meta property="og:description" content="Efficient and Secure Cryptography for IoT" /><meta property="og:image" content="/project/cryptoiot/featured.png" />
+    <meta property="twitter:image" content="/project/cryptoiot/featured.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2016-01-01T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2016-01-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/project/cryptoiot/"
+  },
+  "headline": "Crypto for IoT",
+  
+  "image": [
+    "/project/cryptoiot/featured.png"
+  ],
+  
+  "datePublished": "2016-01-01T00:00:00Z",
+  "dateModified": "2016-01-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Diego F. Aranha[\u003csup\u003e\u003cfont size=\"2\"\u003e\u003ci class=\"fas fa-volume-up\"\u003e\u003c/i\u003e\u003c/font\u003e\u003c/sup\u003e](https://forvo.com/search/aranha/)"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Diego F. Aranha",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Efficient and Secure Cryptography for IoT"
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Crypto for IoT | Diego F. Aranha</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="b1e1f7a2f1d4063adbfd151741394ca5" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.20eb0f3c4d04d41882b841af9fbef98c.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>ABOUT ME</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>PUBLICATIONS</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>TALKS</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#blog"><span>BLOG</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>PROJECTS</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/teaching/"><span>TEACHING</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#supervision"><span>SUPERVISION</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#service"><span>SERVICE</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+
+<div class="container pt-3">
+  <div class="row">
+    <div class="col-6">
+        <h1>Crypto for IoT</h1>
+        
+        <p class="page-subtitle">Efficient and Secure Cryptography for IoT</p>
+        
+
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+        
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/cryptoiot/#pubs" >
+    <i class="fas fa-folder-open mr-1"></i>
+    Publications
+  </a>
+
+
+
+
+
+
+</div>
+
+
+    </div>
+    <div class="col-5">
+      
+      <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 405px;">
+        <div style="position: relative">
+          <img src="/project/cryptoiot/featured_huda3b1fddb01c180ec38b296124286af5_33453_720x0_resize_lanczos_3.png" alt="" class="featured-image">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  <div class="article-container">
+
+    
+    <font size=3>
+    <i class="fas fa-university" title="Institution"></i> <a href="https://cs.au.dk" target="_blank" rel="noopener">Aahus University</a><span class="middot-divider"></span>
+    <i class="fas fa-hand-holding-usd" title="Funding"></i> 300,000 USD from LG Electronics<span class="middot-divider"></span>
+    <i class="fas fa-clock" title="Time"></i> 2015-2017<br>
+    <i class="fas fa-user-tag" title="My role"></i> Principal Investigator<br>
+    
+    
+    </font>
+
+
+    <div class="article-style" style="margin-top: 2em">
+      <p>Concerns about the security of communications between IoT devices and even of the devices themselves have emerged in the literature and the internet in general. The fact that there will be an extraordinary number of wirelessly networked devices (counted in trillions) physically exposed, has made attack scenarios that are classically considered of difficult materialization a real possibility. Special attention is paid to side-channel attacks, in which sensitive data, such as keys, may be retrieved simply by observing information leakage through power consumption, execution time or radiation measurements. Active data injection attacks in the communication channel, side channels, or the device itself are also greatly facilitated. With all this, the search for cryptographic tools that can be made to work in the context of IoT will be a major research topic in the next few years. Finding the proper trade-off of speed, memory and energy efficiency for a given platform, all under severe secure implementation requirements is a very challenging problem, requiring mathematical, computer science and engineering skills, in an never-ending quest as platform evolution keeps its frantic pace. The focus of this research will be the design and implementation of efficient (in time, space and energy) and robust (side-channel leakage resistant) cryptographic algorithms and protocols with a view to resource- constrained devices, typical of the Internet of Things.</p>
+
+    </div>
+    
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+        <h2 id="pubs" style="margin-bottom: 1em">Publications</h2> 
+
+        
+          
+            
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/rochalpa21/" >A Differentially Private Hybrid Approach to Traffic Monitoring</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/rogerio-v.-m.-rocha/">Rogério V. M. Rocha</a></span>, <span >
+      <a href="/authors/pedro-paulo-liborio/">Pedro Paulo Libório</a></span>, <span >
+      <a href="/authors/harsh-kupwade-patil/">Harsh Kupwade Patil</a></span>, <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>ACNS (2)</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2021
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-030-78375-4_10" target="_blank" rel="noopener">
+  <i class="ai ai-doi mr-1"></i> 
+  DOI
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/352250329_A_Differentially_Private_Hybrid_Approach_to_Traffic_Monitoring" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/rochalpa21/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cryptoiot/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project CryptoIoT 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/cruzga20/" >Efficient and secure software implementations of Fantomas</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/rafael-j.-cruz/">Rafael J. Cruz</a></span>, <span >
+      <a href="/authors/antonio-guimaraes/">Antonio Guimarães</a></span>, <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>Journal of Cryptographic Engineering (JCEN)</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2020
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s13389-019-00218-2" target="_blank" rel="noopener">
+  <i class="ai ai-doi mr-1"></i> 
+  DOI
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/334730336_Efficient_and_secure_software_implementations_of_Fantomas" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/cruzga20/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cryptoiot/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project CryptoIoT 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/fujiia18/" >Efficient Curve25519 Implementation for ARM Microcontrollers</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/hayato-fujii/">Hayato Fujii</a></span>, <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>V Concurso de Teses e Dissertações em Segurança (CTDSeg)</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2018
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4142/4071" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/fujiia18/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cryptoiot/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project CryptoIoT 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/faz-hernandezfa17/" >A Secure and Efficient Implementation of the Quotient Digital Signature Algorithm (qDSA)</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/armando-faz-hernandez/">Armando Faz-Hernández</a></span>, <span >
+      <a href="/authors/hayato-fujii/">Hayato Fujii</a></span>, <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>, <span >
+      <a href="/authors/julio-cesar-lopez-hernandez/">Julio César López-Hernández</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>SPACE</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2017
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-319-71501-8_10" target="_blank" rel="noopener">
+  <i class="ai ai-doi mr-1"></i> 
+  DOI
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/321191679_A_Secure_and_Efficient_Implementation_of_the_Quotient_Digital_Signature_Algorithm_qDSA" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/faz-hernandezfa17/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cryptoiot/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project CryptoIoT 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/fujiia17/" >Curve25519 for the Cortex-M4 and Beyond</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/hayato-fujii/">Hayato Fujii</a></span>, <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>LATINCRYPT</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2017
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-030-25283-0_6" target="_blank" rel="noopener">
+  <i class="ai ai-doi mr-1"></i> 
+  DOI
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/334583282_Curve25519_for_the_Cortex-M4_and_Beyond" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/fujiia17/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cryptoiot/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project CryptoIoT 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/reisal17/" >PRESENT Runs Fast - Efficient and Secure Implementation in Software</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/tiago-b.-s.-reis/">Tiago B. S. Reis</a></span>, <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>, <span >
+      <a href="/authors/julio-cesar-lopez-hernandez/">Julio César López-Hernández</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>CHES</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2017
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-319-66787-4_31" target="_blank" rel="noopener">
+  <i class="ai ai-doi mr-1"></i> 
+  DOI
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/319284394_PRESENT_Runs_Fast" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/reisal17/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cryptoiot/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project CryptoIoT 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/netoscnncglapo16/" >AoT: Authentication and Access Control for the Entire IoT Device Life-Cycle</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/antonio-l.-maia-neto/">Antonio L. Maia Neto</a></span>, <span >
+      <a href="/authors/artur-l.-f.-souza/">Artur L. F. Souza</a></span>, <span >
+      <a href="/authors/italo-s.-cunha/">Ítalo S. Cunha</a></span>, <span >
+      <a href="/authors/michele-nogueira/">Michele Nogueira</a></span>, <span >
+      <a href="/authors/ivan-oliveira-nunes/">Ivan Oliveira Nunes</a></span>, <span >
+      <a href="/authors/leonardo-cotta/">Leonardo Cotta</a></span>, <span >
+      <a href="/authors/nicolas-gentille/">Nicolas Gentille</a></span>, <span >
+      <a href="/authors/antonio-a.-f.-loureiro/">Antonio A. F. Loureiro</a></span>, <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>, <span >
+      <a href="/authors/harsh-kupwade-patil/">Harsh Kupwade Patil</a></span>, <span >
+      <a href="/authors/leonardo-b.-oliveira/">Leonardo B. Oliveira</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>SenSys</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2016
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/2994551.2994555" target="_blank" rel="noopener">
+  <i class="ai ai-doi mr-1"></i> 
+  DOI
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/309705637_AoT_Authentication_and_Access_Control_for_the_Entire_IoT_Device_Life-Cycle" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/netoscnncglapo16/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cryptoiot/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project CryptoIoT 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/cruza16/" >Efficient Software Implementations of Fantomas</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/rafael-j.-cruz/">Rafael J. Cruz</a></span>, <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>16th Brazilian Symposium on Information and Computer Systems Security (SBSeg)</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2016
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://sbseg2016.ic.uff.br/pt/files/anais/completos/ST4-4.pdf" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/cruza16/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cryptoiot/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project CryptoIoT 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/cruzralp16/" >Lightweight cryptography on ARM</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/rafael-j.-cruz/">Rafael J. Cruz</a></span>, <span >
+      <a href="/authors/tiago-b.-s.-reis/">Tiago B. S. Reis</a></span>, <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>, <span >
+      <a href="/authors/julio-cesar-lopez-hernandez/">Julio César López-Hernández</a></span>, <span >
+      <a href="/authors/harsh-kupwade-patil/">Harsh Kupwade Patil</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>NIST Lightweight Cryptography Workshop (LWC)</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2016
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/312029226_Lightweight_Cryptography_on_ARM" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/cruzralp16/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.nist.gov/sites/default/files/documents/2016/10/17/aranha-presentation-lwc2016.pdf" target="_blank" rel="noopener">
+  <i class="fa fa-layer-group mr-1"></i> 
+    Slides
+</a>
+
+
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cryptoiot/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project CryptoIoT 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+      
+
+      
+      
+      
+        <h2 id="talks" style="margin-bottom: 1em">Talks</h2> 
+        
+          
+            
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/talk/lightweight-cryptography-on-arm/" >Lightweight cryptography on ARM</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Oct 20, 2016
+        </span>
+        
+
+        
+        
+        
+
+        
+            
+            <span class="middot-divider"></span>
+            <span><a href="http://ccccspeed.win.tue.nl/" target="_blank" rel="noopener">SPEED-B – Software performance enhancement for encryption and decryption, and benchmarking</a></span>
+            
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/312029005_Lightweight_Cryptography_on_ARM_slides_for_SPEED-B_2016" target="_blank" rel="noopener">
+  <i class="fa fa-layer-group mr-1"></i> 
+    Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.nist.gov/news-events/events/2016/10/lightweight-cryptography-workshop-2016" target="_blank" rel="noopener">
+  <i class="fa fa-film mr-1"></i> 
+  Video
+</a>
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cryptoiot/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project CryptoIoT 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+  </p>
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.51ce98c0d12d1f3f97913eed085926f4.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

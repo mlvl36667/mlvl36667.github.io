@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thomaz Oliveira | Diego F. Aranha</title>
+    <link>/authors/thomaz-oliveira/</link>
+      <atom:link href="/authors/thomaz-oliveira/index.xml" rel="self" type="application/rss+xml" />
+    <description>Thomaz Oliveira</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Thomaz Oliveira</title>
+      <link>/authors/thomaz-oliveira/</link>
+    </image>
+    
+    <item>
+      <title>Fast Point Multiplication Algorithms for Binary Elliptic Curves with and without Precomputation</title>
+      <link>/publication/oliveiraahr14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveiraahr14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two is the fastest prime: lambda coordinates for binary elliptic curves</title>
+      <link>/publication/oliveiralar14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveiralar14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lambda Coordinates for Binary Elliptic Curves</title>
+      <link>/publication/oliveiralar13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/oliveiralar13/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marinho P. Barcellos | Diego F. Aranha</title>
+    <link>/authors/marinho-p.-barcellos/</link>
+      <atom:link href="/authors/marinho-p.-barcellos/index.xml" rel="self" type="application/rss+xml" />
+    <description>Marinho P. Barcellos</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Marinho P. Barcellos</title>
+      <link>/authors/marinho-p.-barcellos/</link>
+    </image>
+    
+    <item>
+      <title>Research in Security and Privacy in Brazil</title>
+      <link>/publication/barcellosa18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/barcellosa18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anais do XIV Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais (SBSeg)</title>
+      <link>/publication/sbseg2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/sbseg2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

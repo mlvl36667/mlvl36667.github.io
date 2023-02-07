@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edson Borin | Diego F. Aranha</title>
+    <link>/authors/edson-borin/</link>
+      <atom:link href="/authors/edson-borin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Edson Borin</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Edson Borin</title>
+      <link>/authors/edson-borin/</link>
+    </image>
+    
+    <item>
+      <title>Homomorphic e @inproceedingsDBLP:conf/ccs/AranhaLO022, author    = Diego F. Aranha and Chuanwei Lin and Claudio Orlandi and Mark Simkin, title     = Laconic Private Set-Intersection From Pairings, booktitle = CCS, pages     = 111--124, publisher = ACM, year      = 2022
+valuation of large look-up tables for inference on human genome data in the cloud</title>
+      <link>/publication/guimaraesnaab22/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/guimaraesnaab22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MOSFHET: Optimized Software for FHE over the Torus</title>
+      <link>/publication/guimaraesba22/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/guimaraesba22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisiting the functional bootstrap in TFHE</title>
+      <link>/publication/guimaraesba21/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/guimaraesba21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluation and Mitigation of Timing Side-Channel Leakages on Multiple-Target Dynamic Binary Translators</title>
+      <link>/publication/napolirab20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/napolirab20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Secure and efficient software implementation of QC-MDPC code-based cryptography</title>
+      <link>/publication/guimaraesab20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/guimaraesab20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introducing Arithmetic Failures to Accelerate QC-MDPC Code-Based Cryptography</title>
+      <link>/publication/guimaraesba19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/guimaraesba19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimized implementation of QC-MDPC code-based cryptography</title>
+      <link>/publication/guimaraesab19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/guimaraesab19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluation of Timing Side-Channel Leakage on a Multiple-Target Dynamic Binary Translator</title>
+      <link>/publication/napolirab18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/napolirab18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimizing the decoding process of a post-quantum cryptographic algorithm</title>
+      <link>/publication/guimaraesba17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/guimaraesba17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extensão do conjunto de instruções para implementação segura de X25519</title>
+      <link>/publication/guimaraesba16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/guimaraesba16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

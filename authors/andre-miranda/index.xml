@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>André Miranda | Diego F. Aranha</title>
+    <link>/authors/andre-miranda/</link>
+      <atom:link href="/authors/andre-miranda/index.xml" rel="self" type="application/rss+xml" />
+    <description>André Miranda</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>André Miranda</title>
+      <link>/authors/andre-miranda/</link>
+    </image>
+    
+    <item>
+      <title>(In)segurança do voto eletrônico no Brasil</title>
+      <link>/publication/aranhakms14br/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhakms14br/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software vulnerabilities in the Brazilian voting machine</title>
+      <link>/publication/aranhakms14/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhakms14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vulnerabilidades no software da urna eletrônica brasileira</title>
+      <link>/publication/aranhakms13/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhakms13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security analysis of Brazilian voting machines</title>
+      <link>/talk/security-analysis-of-brazilian-voting-machines/</link>
+      <pubDate>Mon, 06 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>/talk/security-analysis-of-brazilian-voting-machines/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

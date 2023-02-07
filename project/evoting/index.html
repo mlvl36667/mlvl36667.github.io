@@ -1,0 +1,3154 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.1.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Diego F. Aranha[&lt;sup&gt;&lt;font size=&#34;2&#34;&gt;&lt;i class=&#34;fas fa-volume-up&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/sup&gt;](https://forvo.com/search/aranha/)" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Security analysis of the Brazilian voting machines" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="/project/evoting/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="rgb(252, 145, 58)" />
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.e4f7d488ffa704735aec150d2cb0d1a3.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9882102-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-9882102-2', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="/project/evoting/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Diego F. Aranha" />
+  <meta property="og:url" content="/project/evoting/" />
+  <meta property="og:title" content="Electronic Voting | Diego F. Aranha" />
+  <meta property="og:description" content="Security analysis of the Brazilian voting machines" /><meta property="og:image" content="/project/evoting/featured.jpg" />
+    <meta property="twitter:image" content="/project/evoting/featured.jpg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2019-01-01T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2019-01-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/project/evoting/"
+  },
+  "headline": "Electronic Voting",
+  
+  "image": [
+    "/project/evoting/featured.jpg"
+  ],
+  
+  "datePublished": "2019-01-01T00:00:00Z",
+  "dateModified": "2019-01-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Diego F. Aranha[\u003csup\u003e\u003cfont size=\"2\"\u003e\u003ci class=\"fas fa-volume-up\"\u003e\u003c/i\u003e\u003c/font\u003e\u003c/sup\u003e](https://forvo.com/search/aranha/)"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Diego F. Aranha",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Security analysis of the Brazilian voting machines"
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Electronic Voting | Diego F. Aranha</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="31e11bed6e1601c2d21ddc0d4da89cc0" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.20eb0f3c4d04d41882b841af9fbef98c.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>ABOUT ME</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>PUBLICATIONS</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>TALKS</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#blog"><span>BLOG</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>PROJECTS</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/teaching/"><span>TEACHING</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#supervision"><span>SUPERVISION</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#service"><span>SERVICE</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+<div class="container pt-3">
+  <div class="row">
+    <div class="col-6">
+        <h1>Electronic Voting</h1>
+        
+        <p class="page-subtitle">Security analysis of e-voting in Brazil</p>
+        
+
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+        
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/evoting/#pubs" >
+    <i class="fas fa-folder-open mr-1"></i>
+    Publications
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://www.urnaeletronica.info" target="_blank" rel="noopener">
+    <i class="fas fa-link mr-1"></i>
+    External link
+  </a>
+
+
+
+
+
+
+</div>
+
+
+    </div>
+    <div class="col-5">
+      
+      <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 300px; max-height: 197px;">
+        <div style="position: relative">
+          <img src="/project/evoting/featured.jpg" alt="" class="featured-image">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  <div class="article-container">
+
+    
+    <font size=3>
+    <i class="fas fa-university" title="Institution"></i> <a href="http://www.unicamp.br" target="_blank" rel="noopener">University of Campinas</a><span class="middot-divider"></span>
+    
+    <i class="fas fa-clock" title="Time"></i> 2012-2019<br>
+    <i class="fas fa-user-tag" title="My role"></i> Principal Investigator<br>
+    
+    
+    </font>
+
+
+    <div class="article-style" style="margin-top: 2em">
+      <p>The results were obtained after a 7-year saga to experimentally demonstrate the security problems with the electronic voting system adopted in Brazilian elections, and later informed the (still ongoing) nation-wide debate around the need for adopting paper trails for auditing elections in the country.</p>
+<p>Our results were extensively covered by national and international press, for example: <a href="https://www.nytimes.com/2021/11/11/world/americas/bolsonaro-trump-brazil-election.html" target="_blank" rel="noopener">New York Times</a>, <a href="https://arstechnica.com/features/2016/11/internet-based-and-open-source-how-e-voting-is-working-around-the-globe/" target="_blank" rel="noopener">Ars Technica</a> (and a <a href="https://arstechnica.com/tech-policy/2018/06/in-a-blow-to-e-voting-critics-brazil-suspends-use-of-all-paper-ballots/" target="_blank" rel="noopener">second</a> time), <a href="https://www.spiegel.de/netzwelt/netzpolitik/brasilien-wahl-angst-vor-der-elektronischen-wahlurne-a-1235518.html" target="_blank" rel="noopener">Der Spiegel</a>, <a href="https://www.economist.com/the-americas/2018/10/05/brazils-voters-worry-about-the-integrity-of-their-elections" target="_blank" rel="noopener">The Economist</a>, <a href="https://www.zdnet.com/article/fraud-possible-in-brazils-e-voting-system/" target="_blank" rel="noopener">ZDNet</a>, <a href="https://www.youtube.com/watch?v=M3jMoh4zWjg&amp;t=63s" target="_blank" rel="noopener">BBC Brazil</a>, <a href="https://www.youtube.com/watch?v=ZoaYECRGBn4" target="_blank" rel="noopener">Globo News</a>, <a href="http://redeglobo.globo.com/globocidadania/videos/t/edicoes/v/seguranca-eleitoral-parte-3/2160001/" target="_blank" rel="noopener">Globo</a>, <a href="https://www.youtube.com/watch?v=xATaNCsre9Q&amp;t=60s" target="_blank" rel="noopener">SBT</a>, <a href="https://www.youtube.com/watch?v=ZKy-ZobLdoA&amp;t=56s" target="_blank" rel="noopener">Record</a>, <a href="https://www1.folha.uol.com.br/fsp/tec/index-20120709.shtml" target="_blank" rel="noopener">Folha</a>, <a href="https://www.youtube.com/watch?v=qlPXj6HkxOo&amp;t=548s" target="_blank" rel="noopener">Tecmundo</a>, <a href="https://g1.globo.com/tecnologia/blog/seguranca-digital/post/falha-na-urna-brasileira-reproduzia-fielmente-erro-de-1995-diz-professor.html" target="_blank" rel="noopener">G1</a>, <a href="http://noticias.terra.com.br/brasil/politica/eleicoes/urna-e-a-mais-defasada-diz-professor-que-violou-sistema-do-tse,dbeadf0a2566b310VgnCLD200000bbcceb0aRCRD.html" target="_blank" rel="noopener">Terra</a>, <a href="https://opiniao.estadao.com.br/noticias/geral,urnas-abertas-para-fraudes-imp-,933663" target="_blank" rel="noopener">Estadão</a>; among others.
+They were also part of the online course <a href="https://www.coursera.org/course/digitaldemocracy" target="_blank" rel="noopener">Securing Digital Democracy</a>, by <a href="https://jhalderm.com/" target="_blank" rel="noopener">J. Alex Halderman</a>, where the situation in Brazil was briefly discussed.</p>
+<p>If you understand Portuguese, the results were discussed at multiple official public hearings in the Brazilian Congress (recorded below):</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=XiMga6Cn8AM" target="_blank" rel="noopener">Constitution and Justice Commission</a></li>
+<li><a href="http://www.youtube.com/watch?v=5B7ZiBWNJdg" target="_blank" rel="noopener">Federal Senate</a></li>
+<li><a href="http://www.youtube.com/watch?v=PF9_xv_FfF0" target="_blank" rel="noopener">Chamber of Deputies</a></li>
+</ul>
+<p>I also gave many talks in academic and industry events around the country:</p>
+<ul>
+<li><a href="http://www.youtube.com/watch?v=in6JTwNGZCo" target="_blank" rel="noopener">University of São Paulo</a>, <a href="https://www.youtube.com/watch?v=IHrKjyPhm-4" target="_blank" rel="noopener">University of Campinas</a>, <a href="https://www.youtube.com/watch?v=4_706EoJMjU" target="_blank" rel="noopener">USP São Carlos</a>, and several other universities (UnB, UFMG, CAPES, FGV-Rio)</li>
+<li><a href="https://www.youtube.com/watch?v=0bAuf4osADg&amp;t=2203s" target="_blank" rel="noopener">Mind the Sec 2018</a> Conference, followed by a <a href="https://www.youtube.com/watch?v=QuR0oCJSr0A" target="_blank" rel="noopener">debate</a></li>
+<li><a href="https://www.youtube.com/watch?v=4D0oCyfXfxY" target="_blank" rel="noopener">XV International Free Software Forum</a></li>
+</ul>
+<p>You can find other publications and talks below.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/NGmHrxvefNo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+    </div>
+    
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+        <h2 id="pubs" style="margin-bottom: 1em">Publications</h2> 
+
+        
+          
+            
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/aranhabcam19/" >The return of software vulnerabilities in the Brazilian voting machine</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>, <span >
+      <a href="/authors/pedro-barbosa/">Pedro Barbosa</a></span>, <span >
+      <a href="/authors/thiago-n.-c.-cardoso/">Thiago N. C. Cardoso</a></span>, <span >
+      <a href="/authors/caio-luders-araujo/">Caio Lüders Araújo</a></span>, <span >
+      <a href="/authors/paulo-matias/">Paulo Matias</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>Computers &amp; Security</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2019
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.cose.2019.06.009" target="_blank" rel="noopener">
+  <i class="ai ai-doi mr-1"></i> 
+  DOI
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/323470546_The_Return_of_Software_Vulnerabilities_in_the_Brazilian_Voting_Machine?channel=doi&amp;linkId=5a9761de0f7e9ba42974d0c9&amp;showFulltext=true" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/aranhabcam19/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/evoting/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project eVoting 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/aranhabcam18/" >Execução de código arbitrário na urna eletrônica brasileira</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>, <span >
+      <a href="/authors/pedro-y.-s.-barbosa/">Pedro Y. S. Barbosa</a></span>, <span >
+      <a href="/authors/thiago-n.-c.-cardoso/">Thiago N. C. Cardoso</a></span>, <span >
+      <a href="/authors/caio-luders-araujo/">Caio Lüders Araújo</a></span>, <span >
+      <a href="/authors/paulo-matias/">Paulo Matias</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>XVIII Simpósio Brasileiro de Segurança da Informação e Sistemas Computacionais (SBSeg)</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2018
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/326261911_Execucao_de_codigo_arbitrario_na_urna_eletronica_brasileira" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/aranhabcam18/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.sbc.org.br/33-premios" target="_blank" rel="noopener">
+    <i class="fa fa-trophy mr-1"></i>
+    Best Paper Award (George Cox Prize)
+  </a>
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/evoting/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project eVoting 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/aranhag18/" >The Good, the Bad, and the Ugly: Two Decades of E-Voting in Brazil</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>, <span >
+      <a href="/authors/jeroen-van-de-graaf/">Jeroen van de Graaf</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>IEEE Security &amp; Privacy</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2018
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/MSEC.2018.2875318" target="_blank" rel="noopener">
+  <i class="ai ai-doi mr-1"></i> 
+  DOI
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/330914587_The_Good_the_Bad_and_the_Ugly_Two_Decades_of_E-Voting_in_Brazil" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/aranhag18/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/evoting/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project eVoting 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/aranharp16/" >Crowdsourced integrity verification of election results - An experience from Brazilian elections</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>, <span >
+      <a href="/authors/helder-ribeiro/">Helder Ribeiro</a></span>, <span >
+      <a href="/authors/andre-luis-ogando-paraense/">André Luis Ogando Paraense</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>Annals of Telecommunications</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2016
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s12243-016-0511-1" target="_blank" rel="noopener">
+  <i class="ai ai-doi mr-1"></i> 
+  DOI
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s12243-016-0511-1" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/aranharp16/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/evoting/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project eVoting 
+  </a>
+  
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/youinspect/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project YouInspect 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/aranhakms14br/" >(In)segurança do voto eletrônico no Brasil</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>, <span >
+      <a href="/authors/marcelo-m.-karam/">Marcelo M. Karam</a></span>, <span >
+      <a href="/authors/andre-miranda/">André Miranda</a></span>, <span >
+      <a href="/authors/felipe-scarel/">Felipe Scarel</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>Cadernos Adenauer 1/2014: Justiça Eleitoral</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2014
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://www.kas.de/wf/doc/13775-1442-5-30.pdf" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/aranhakms14br/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/evoting/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project eVoting 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/aranhakms14/" >Software vulnerabilities in the Brazilian voting machine</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>, <span >
+      <a href="/authors/marcelo-m.-karam/">Marcelo M. Karam</a></span>, <span >
+      <a href="/authors/andre-miranda/">André Miranda</a></span>, <span >
+      <a href="/authors/felipe-scarel/">Felipe Scarel</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>Design, Development, and Use of Secure Electronic Voting Systems</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2014
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/260870433_Software_vulnerabilities_in_the_Brazilian_voting_machine" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/aranhakms14/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/evoting/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project eVoting 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/aranhakms13/" >Vulnerabilidades no software da urna eletrônica brasileira</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>, <span >
+      <a href="/authors/marcelo-m.-karam/">Marcelo M. Karam</a></span>, <span >
+      <a href="/authors/andre-miranda/">André Miranda</a></span>, <span >
+      <a href="/authors/felipe-scarel/">Felipe Scarel</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>Relatório Técnico</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2013
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/313421477_Vulnerabilidades_no_software_da_urna_eletronica_brasileira" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/aranhakms13/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/evoting/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project eVoting 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+      
+
+      
+      
+      
+        <h2 id="talks" style="margin-bottom: 1em">Talks</h2> 
+        
+          
+            
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/talk/can-blockchains-make-voting-more-secure/" >Can blockchains make voting more secure?</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Apr 10, 2019
+        </span>
+         
+        <span class="middot-divider"></span>
+        
+
+        <a href="https://www.digitalinnovationfestival.dk/dif2019/" target="_blank" rel="noopener">
+        AU Digital Innovation Festival
+        </a>
+        
+
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.youtube.com/watch?v=0T5dnEV3PQo" target="_blank" rel="noopener">
+  <i class="fa fa-film mr-1"></i> 
+  Video
+</a>
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/evoting/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project eVoting 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/talk/return-of-the-insecure-brazilian-voting-machines/" >Return of the insecure Brazilian voting machines</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Mar 29, 2019
+        </span>
+        
+
+        
+        
+        
+
+        
+            
+            <span class="middot-divider"></span>
+            <span><a href="https://www.blackhat.com/asia-19/briefings.html" target="_blank" rel="noopener">Black Hat Asia (BHA) 2019</a></span>
+            
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>, <span >
+      <a href="/authors/pedro-barbosa/">Pedro Barbosa</a></span>, <span >
+      <a href="/authors/thiago-n.-c.-cardoso/">Thiago N. C. Cardoso</a></span>, <span >
+      <a href="/authors/caio-luders-araujo/">Caio Lüders Araújo</a></span>, <span >
+      <a href="/authors/paulo-matias/">Paulo Matias</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/327848758_The_Return_of_Insecure_Brazilian_Voting_Machines" target="_blank" rel="noopener">
+  <i class="fa fa-layer-group mr-1"></i> 
+    Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.youtube.com/watch?v=NGmHrxvefNo" target="_blank" rel="noopener">
+  <i class="fa fa-film mr-1"></i> 
+  Video
+</a>
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/evoting/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project eVoting 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/talk/software-vulnerabilities-in-the-brazilian-voting-machine/" >Software vulnerabilities in the Brazilian voting machine</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Jan 6, 2016
+        </span>
+        
+
+        
+        
+        
+
+        
+            
+            <span class="middot-divider"></span>
+            <span><a href="https://rwc.iacr.org/2016/" target="_blank" rel="noopener">Real World Crypto-graphy Conference (RWC) 2016</a></span>
+            
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://rwc.iacr.org/2016/Slides/RWC16-DiegoAranha.pdf" target="_blank" rel="noopener">
+  <i class="fa fa-layer-group mr-1"></i> 
+    Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.youtube.com/watch?v=5J0Oxrish70" target="_blank" rel="noopener">
+  <i class="fa fa-film mr-1"></i> 
+  Video
+</a>
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/evoting/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project eVoting 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/talk/security-of-electronic-voting-in-brazil/" >Security of electronic voting in Brazil</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Aug 22, 2015
+        </span>
+         
+        <span class="middot-divider"></span>
+        
+
+        <a href="https://latincrypt2015.cs.cinvestav.mx/" target="_blank" rel="noopener">
+        3rd Advanced School on Cryptology and Information Security in Latin America (ASCrypto 2015)
+        </a>
+        
+
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/292157524_Electronic_voting_in_Brazil_slides_for_ASCrypto_2015" target="_blank" rel="noopener">
+  <i class="fa fa-layer-group mr-1"></i> 
+    Slides
+</a>
+
+
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/evoting/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project eVoting 
+  </a>
+  
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/youinspect/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project YouInspect 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/talk/security-analysis-of-brazilian-voting-machines/" >Security analysis of Brazilian voting machines</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Aug 6, 2012
+        </span>
+         
+        <span class="middot-divider"></span>
+        
+
+        <a href="https://www.usenix.org/conference/evtwote12/" target="_blank" rel="noopener">
+        Electronic Voting Technology Workshop/Workshop on Trustworthy Elections (USENIX EVT/WOTE) 201
+        </a>
+        
+
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>, <span >
+      <a href="/authors/marcelo-m.-karam/">Marcelo M. Karam</a></span>, <span >
+      <a href="/authors/andre-miranda/">André Miranda</a></span>, <span >
+      <a href="/authors/felipe-scarel/">Felipe Scarel</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.usenix.org/sites/default/files/conference/protected-files/aranha_evt12_slides.pdf" target="_blank" rel="noopener">
+  <i class="fa fa-layer-group mr-1"></i> 
+    Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.youtube.com/watch?v=RWP1uUaRaMc" target="_blank" rel="noopener">
+  <i class="fa fa-film mr-1"></i> 
+  Video
+</a>
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/evoting/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project eVoting 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+  </p>
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.51ce98c0d12d1f3f97913eed085926f4.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Italo Cunha | Diego F. Aranha</title>
+    <link>/authors/italo-cunha/</link>
+      <atom:link href="/authors/italo-cunha/index.xml" rel="self" type="application/rss+xml" />
+    <description>Italo Cunha</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Italo Cunha</title>
+      <link>/authors/italo-cunha/</link>
+    </image>
+    
+    <item>
+      <title>AdC: um Mecanismo de Controle de Acesso para o Ciclo de Vida das Coisas Inteligentes</title>
+      <link>/publication/netofcnncglapo16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/netofcnncglapo16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

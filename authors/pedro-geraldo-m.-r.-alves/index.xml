@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pedro Geraldo M. R. Alves | Diego F. Aranha</title>
+    <link>/authors/pedro-geraldo-m.-r.-alves/</link>
+      <atom:link href="/authors/pedro-geraldo-m.-r.-alves/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pedro Geraldo M. R. Alves</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Pedro Geraldo M. R. Alves</title>
+      <link>/authors/pedro-geraldo-m.-r.-alves/</link>
+    </image>
+    
+    <item>
+      <title>Performance of hierarchical transforms in homomorphic encryption: A case study on logistic regression inference</title>
+      <link>/publication/alvesoa22/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/alvesoa22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Faster Homomorphic Encryption over GPGPUs via Hierarchical DGT</title>
+      <link>/publication/alvesoa21/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/alvesoa21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A framework for searching encrypted databases</title>
+      <link>/publication/alvesa18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/alvesa18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A framework for searching encrypted databases</title>
+      <link>/publication/alvesa16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/alvesa16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CCA1-secure somewhat homomorphic encryption</title>
+      <link>/publication/moraisad16/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/moraisad16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computação sobre dados cifrados em GPGPUs</title>
+      <link>/publication/alvesa16pt/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/alvesa16pt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cuYASHE: Computação sobre dados cifrados em GPGPUs</title>
+      <link>/publication/alvesa15/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/alvesa15/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

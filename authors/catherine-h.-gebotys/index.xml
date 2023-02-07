@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Catherine H. Gebotys | Diego F. Aranha</title>
+    <link>/authors/catherine-h.-gebotys/</link>
+      <atom:link href="/authors/catherine-h.-gebotys/index.xml" rel="self" type="application/rss+xml" />
+    <description>Catherine H. Gebotys</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Catherine H. Gebotys</title>
+      <link>/authors/catherine-h.-gebotys/</link>
+    </image>
+    
+    <item>
+      <title>Circumventing Uniqueness of XOR Arbiter PUFs</title>
+      <link>/publication/hoffmangaca19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/hoffmangaca19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Faster Explicit Formulas for Computing Pairings over Ordinary Curves</title>
+      <link>/publication/aranhaklgl11/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/aranhaklgl11/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

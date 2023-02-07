@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thomas Kingo Mogensen | Diego F. Aranha</title>
+    <link>/authors/thomas-kingo-mogensen/</link>
+      <atom:link href="/authors/thomas-kingo-mogensen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Thomas Kingo Mogensen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Thomas Kingo Mogensen</title>
+      <link>/authors/thomas-kingo-mogensen/</link>
+    </image>
+    
+    <item>
+      <title>Security analysis of the passwordless MitID digital identity system</title>
+      <link>/publication/mogensena22/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/mogensena22/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

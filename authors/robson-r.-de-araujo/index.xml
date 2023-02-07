@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robson R. de Araujo | Diego F. Aranha</title>
+    <link>/authors/robson-r.-de-araujo/</link>
+      <atom:link href="/authors/robson-r.-de-araujo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Robson R. de Araujo</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Robson R. de Araujo</title>
+      <link>/authors/robson-r.-de-araujo/</link>
+    </image>
+    
+    <item>
+      <title>The Ring-LWE Problem in Lattice-Based Cryptography: The Case of Twisted Embeddings</title>
+      <link>/publication/ortizaacd21/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/ortizaacd21/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

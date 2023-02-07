@@ -1,1 +1,4882 @@
-Hello World
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.1.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Diego F. Aranha[&lt;sup&gt;&lt;font size=&#34;2&#34;&gt;&lt;i class=&#34;fas fa-volume-up&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/sup&gt;](https://forvo.com/search/aranha/)" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="[Associate Professor]" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="rgb(252, 145, 58)" />
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.e4f7d488ffa704735aec150d2cb0d1a3.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9882102-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-9882102-2', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Diego F. Aranha" />
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Diego F. Aranha" />
+  <meta property="og:url" content="/" />
+  <meta property="og:title" content="Diego F. Aranha" />
+  <meta property="og:description" content="[Associate Professor]" /><meta property="og:image" content="/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2022-08-16T00:00:00&#43;00:00" />
+    
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "/"
+}
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Diego F. Aranha</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   "  >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.20eb0f3c4d04d41882b841af9fbef98c.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about" data-target="#about"><span>ABOUT ME</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications" data-target="#publications"><span>PUBLICATIONS</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks" data-target="#talks"><span>TALKS</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#blog" data-target="#blog"><span>BLOG</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects" data-target="#projects"><span>PROJECTS</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/teaching/"><span>TEACHING</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#supervision" data-target="#supervision"><span>SUPERVISION</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#service" data-target="#service"><span>SERVICE</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+
+  
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="about" class="home-section wg-about  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="avatar avatar-circle" src="/authors/admin/avatar_huce345f99ac4e383afcb1a365cd467ede_1353424_270x270_fill_q75_lanczos_center.jpg" alt="Diego F. Aranha[&lt;sup&gt;&lt;font size=&#34;2&#34;&gt;&lt;i class=&#34;fas fa-volume-up&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/sup&gt;](https://forvo.com/search/aranha/)">
+      
+
+      <div class="portrait-title">
+        <h2>Diego F. Aranha<a href="https://forvo.com/search/aranha/" target="_blank" rel="noopener"><sup><font size="2"><i class="fas fa-volume-up"></i></font></sup></a></h2>
+
+        
+        
+        <h3>
+          Associate Professor<br>
+          <a href="https://cs.au.dk" target="_blank" rel="noopener">
+          <span>Aarhus University</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+        <li>
+          <a href="mailto:dfaranha@cs.au.dk"  aria-label="envelope">
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="/files/cv.pdf"  aria-label="cv">
+            <i class="ai ai-cv big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://pure.au.dk/portal/en/dfaranha@cs.au.dk" target="_blank" rel="noopener" aria-label="university">
+            <i class="fas fa-university big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://scholar.google.com/citations?user=FF26-mIAAAAJ" target="_blank" rel="noopener" aria-label="google-scholar">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.twitter.com/dfaranha" target="_blank" rel="noopener" aria-label="twitter">
+            <i class="fab fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://github.com/dfaranha" target="_blank" rel="noopener" aria-label="github">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="http://dblp.uni-trier.de/pers/hy/a/Aranha:Diego_F=" target="_blank" rel="noopener" aria-label="dblp">
+            <i class="ai ai-dblp big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.researchgate.net/profile/Diego_Aranha" target="_blank" rel="noopener" aria-label="researchgate">
+            <i class="ai ai-researchgate big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://orcid.org/0000-0002-2457-0783" target="_blank" rel="noopener" aria-label="orcid">
+            <i class="ai ai-orcid big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.webofscience.com/wos/author/record/J-9961-2012" target="_blank" rel="noopener" aria-label="publons">
+            <i class="ai ai-publons big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.scopus.com/authid/detail.uri?authorId=16041624100" target="_blank" rel="noopener" aria-label="elsevier">
+            <i class="ai ai-elsevier big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://lattes.cnpq.br/9788199690491510" target="_blank" rel="noopener" aria-label="lattes">
+            <i class="ai ai-lattes big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.linkedin.com/in/dfaranha/" target="_blank" rel="noopener" aria-label="linkedin-in">
+            <i class="fab fa-linkedin-in big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="http://youtube.com/user/dfaranha" target="_blank" rel="noopener" aria-label="youtube">
+            <i class="fab fa-youtube big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+    
+
+    <div class="article-style">
+      <p>I am an <em>Associate Professor</em> in the <a href="https://www.cs.au.dk" target="_blank" rel="noopener">Department of Computer Science</a> at  <a href="https://www.au.dk" target="_blank" rel="noopener">Aarhus University</a>, Denmark, where I conduct research in <strong>cryptographic engineering</strong> and <strong>security of real-world systems</strong>. I also lead the <em>Cybersecurity Work Package</em> at <a href="https://digit.au.dk" target="_blank" rel="noopener">DIGIT</a> and contribute to <a href="https://cs.au.dk/research/centers/concordium/" target="_blank" rel="noopener">COBRA</a> as <em>Principal Investigator</em>.</p>
+<p>I have received two <a href="https://research.google/outreach/featured-research-collaborations/#latam-research-awards" target="_blank" rel="noopener">Google Latin America Research Awards</a> for privacy, and the MIT TechReview&rsquo;s <a href="https://www.innovatorsunder35.com/the-list/diego-aranha/" target="_blank" rel="noopener">Innovators Under 35 Brazil Award</a> for my work in electronic voting.</p>
+
+    </div>
+
+    <div class="row">
+
+      
+      
+      <div class="col-sm-6">
+        <div class="section-subheading"><h4>Research Interests</h4></div></div>
+        <ul class="ul-interests fa-ul">
+          
+          <li>
+            
+              <div class="text-primary"><i class="fa-li fas fa-forward"></i> Efficient secure cryptography in software</div>
+            
+          </li>
+          
+          <li>
+            
+              <i class="fa-li fas fa-infinity"></i> Elliptic Curve Cryptography (ECC) and Pairing-Based Cryptography (PBC)
+            
+          </li>
+          
+          <li>
+            
+              <i class="fa-li fas fa-signal"></i> Security in Wireless Sensor Networks (WSNs) and the Internet of Things (IoT)
+            
+          </li>
+          
+          <li>
+            
+              <i class="fa-li fas fa-bolt"></i> Side-Channel Analysis (SCA) and countermeasures
+            
+          </li>
+          
+          <li>
+            
+              <i class="fa-li fas fa-microchip"></i> Cryptography based on physical assumptions (PUFs)
+            
+          </li>
+          
+          <li>
+            
+              <i class="fa-li fas fa-eye"></i> Privacy-preserving computing
+            
+          </li>
+          
+          <li>
+            
+              <i class="fa-li fas fa-question"></i> Computational anonymity
+            
+          </li>
+          
+          <li>
+            
+              <i class="fa-li fas fa-check"></i> Electronic voting
+            
+          </li>
+          
+          <li>
+            
+              <i class="fa-li fas fa-lock"></i> Systems security
+            
+          </li>
+          
+        </ul>
+      
+
+
+      
+      <div class="col-sm-6">
+        <div class="section-subheading"><h4>Professional experience</h4></div>
+        <ul class="ul-edu fa-ul">
+          
+          <li>
+            
+              <i class="fa-li fas fa-university"></i>
+            
+            <div class="description">
+              <p class="course">Aarhus University, 2020-Present</p>
+              <p class="institution">Associate Professor</p>
+            </div>
+          </li>
+          
+          <li>
+            
+              <i class="fa-li fas fa-university"></i>
+            
+            <div class="description">
+              <p class="course">Aarhus University, 2018-2020</p>
+              <p class="institution">Assistant Professor</p>
+            </div>
+          </li>
+          
+          <li>
+            
+              <i class="fa-li fas fa-university"></i>
+            
+            <div class="description">
+              <p class="course">University of Campinas, 2014-2018</p>
+              <p class="institution">Assistant Professor</p>
+            </div>
+          </li>
+          
+          <li>
+            
+              <i class="fa-li fas fa-university"></i>
+            
+            <div class="description">
+              <p class="course">University of Brasilia, 2011-2014</p>
+              <p class="institution">Assistant Professor</p>
+            </div>
+          </li>
+          
+          <li>
+            
+              <i class="fa-li fas fa-briefcase"></i>
+            
+            <div class="description">
+              <p class="course">CertiVox/MIRACL, 2010-2011</p>
+              <p class="institution">Consultant and contractor</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-sm-6">
+        <div class="section-subheading"><h4>Education</h4></div>
+        <ul class="ul-edu fa-ul">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Ph.D. in Computer Science, 2007-2011</p>
+              <p class="institution">Institute of Computing, University of Campinas</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Visiting Ph.D. student, 2010-2011</p>
+              <p class="institution">Combinatorics &amp; Optimization, University of Waterloo</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">M.Sc. in Computer Science, 2005-2007</p>
+              <p class="institution">Institute of Computing, University of Campinas</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">B.Sc. in Computer Science, 2000-2005</p>
+              <p class="institution">Department of Computer Science, University of Brasilia</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+      
+
+    </div>
+  </div>
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="publications" class="home-section wg-pages  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Recent Publications</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+  
+  
+  
+
+    
+    
+      
+    
+
+    
+
+    <div class="see-all" style="margin-top: 0em; margin-bottom: 2em">
+      <a href="/publication/">
+        See all publications
+        <i class="fas fa-angle-double-right"></i>
+      </a>
+    </div>
+  
+  
+
+  
+
+  
+    
+      
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/aardala22/" >2DT-GLS: Faster and exception-free scalar multiplication in the GLS254 binary curve</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/marius-a.-aardal/">Marius A. Aardal</a></span>, <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>To appear in 29th Conference on Selected Areas in Cryptography (SAC)</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2022
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/aardala22/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/aranhahg22/" >A survey of elliptic curves for proof systems</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>, <span >
+      <a href="/authors/youssef-el-housni/">Youssef El Housni</a></span>, <span >
+      <a href="/authors/aurore-guillevic/">Aurore Guillevic</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>To appear in Designs, Codes and Cryptography</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2022
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://eprint.iacr.org/2022/586" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/aranhahg22/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/aranhahnpy22/" >Count Me In! Extendability for Threshold Ring Signatures</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>, <span >
+      <a href="/authors/mathias-hall-andersen/">Mathias Hall-Andersen</a></span>, <span >
+      <a href="/authors/anca-nitulescu/">Anca Nitulescu</a></span>, <span >
+      <a href="/authors/elena-pagnin/">Elena Pagnin</a></span>, <span >
+      <a href="/authors/sophia-yakoubov/">Sophia Yakoubov</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>Public Key Cryptography (2)</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2022
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-030-97121-2_21" target="_blank" rel="noopener">
+  <i class="ai ai-doi mr-1"></i> 
+  DOI
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://eprint.iacr.org/2021/1240" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/aranhahnpy22/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/aranhabcgo022/" >ECLIPSE: Enhanced Compiling Method for Pedersen-Committed zkSNARK Engines</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>, <span >
+      <a href="/authors/emil-madsen-bennedsen/">Emil Madsen Bennedsen</a></span>, <span >
+      <a href="/authors/matteo-campanelli/">Matteo Campanelli</a></span>, <span >
+      <a href="/authors/chaya-ganesh/">Chaya Ganesh</a></span>, <span >
+      <a href="/authors/claudio-orlandi/">Claudio Orlandi</a></span>, <span >
+      <a href="/authors/akira-takahashi/">Akira Takahashi</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>Public Key Cryptography (1)</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2022
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-030-97121-2_21" target="_blank" rel="noopener">
+  <i class="ai ai-doi mr-1"></i> 
+  DOI
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://eprint.iacr.org/2021/934" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/aranhabcgo022/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/publication/resenderdna22/" >Fast Privacy-Preserving Text Classification Based on Secure Multiparty Computation</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/authors/amanda-cristina-davi-resende/">Amanda Cristina Davi Resende</a></span>, <span >
+      <a href="/authors/davis-railsback/">Davis Railsback</a></span>, <span >
+      <a href="/authors/rafael-dowsley/">Rafael Dowsley</a></span>, <span >
+      <a href="/authors/anderson-c.-a.-nascimento/">Anderson C. A. Nascimento</a></span>, <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>
+  </div>
+  
+  
+
+   
+  <span class="pub-publication">
+    
+      <em>IEEE Trans. Inf. Forensics Secur.</em>
+    
+  </span>
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    2022
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/TIFS.2022.3144007" target="_blank" rel="noopener">
+  <i class="ai ai-doi mr-1"></i> 
+  DOI
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/357917117_Fast_Privacy-Preserving_Text_Classification_based_on_Secure_Multiparty_Computation" target="_blank" rel="noopener noreferrer"> 
+  <i class="fa fa-file-pdf mr-1"></i> 
+  PDF
+</a>
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/resenderdna22/cite.bib">
+      <i class="fa fa-quote-left mr-1"></i> 
+      BibTeX 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="talks" class="home-section wg-pages  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Invited and Contributed Talks</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+  
+  
+  
+
+    
+    
+      
+    
+
+    
+
+    <div class="see-all" style="margin-top: 0em; margin-bottom: 2em">
+      <a href="/event/">
+        See all talks
+        <i class="fas fa-angle-double-right"></i>
+      </a>
+    </div>
+  
+  
+
+  
+
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/talk/introduction-to-blockchain-technology/" >Introduction to blockchain technology</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Aug 16, 2022
+        </span>
+        
+
+        
+        
+        
+
+        
+            
+            <span class="middot-divider"></span>
+            <span><a href="https://www.conferencemanager.dk/cybersecurity22" target="_blank" rel="noopener">Cybersecurity Summer School 2022</a></span>
+            
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.conferencemanager.dk/cybersecurity22/downloads" target="_blank" rel="noopener">
+  <i class="fa fa-layer-group mr-1"></i> 
+    Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.youtube.com/watch?v=vaOWoSo5tYE&amp;t=2249s" target="_blank" rel="noopener">
+  <i class="fa fa-film mr-1"></i> 
+  Video
+</a>
+
+
+
+
+
+
+ 
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ban/">
+    <i class="fas fa-clipboard mr-1"></i> 
+    Project BAN 
+  </a>
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+ 
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0"> 
+      <a href="/talk/efficient-software-implementation-of-curve-based-cryptography/" >Efficient software implementation of curve-based cryptography</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Jun 13, 2022
+        </span>
+         
+        <span class="middot-divider"></span>
+        
+
+        <a href="https://summerschool-croatia.cs.ru.nl/2022/" target="_blank" rel="noopener">
+        Summer School on Real-world Crypto and Privacy
+        </a>
+        
+
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/authors/diego-f.-aranha/">Diego F. Aranha</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links" style="margin-top: -0.2cm">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://summerschool-croatia.cs.ru.nl/2022/schoolSpeakers.shtml#Diego" target="_blank" rel="noopener">
+  <i class="fa fa-layer-group mr-1"></i> 
+    Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.youtube.com/playlist?list=PLKIJ-ZGG7Ue1G-4KnRg94fPghs1Zxup02" target="_blank" rel="noopener">
+  <i class="fa fa-film mr-1"></i> 
+  Video
+</a>
+
+
+
+
+
+
+ 
+  
+    
+  
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="blog" class="home-section wg-pages  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Posts</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+  
+  
+  
+  
+
+  
+
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    Jun 20, 2018
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/post/voto-impresso/">[pt_BR] Registro físico do voto eletrônico?</a>
+  </div>
+
+  
+  <a href="/post/voto-impresso/" class="summary-link">
+    <div class="article-style">
+      <p>Voto impresso pode tornar eleições mais seguras e transparentes</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span> 
+  <span class="article-date">
+    
+    
+      
+    
+    Feb 7, 2017
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/post/transparencia-justica/">[pt_BR] Transparência e Justiça</a>
+  </div>
+
+  
+  <a href="/post/transparencia-justica/" class="summary-link">
+    <div class="article-style">
+      <p>Como provar que o sistema correto está realmente em execução em momentos decisivos?</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+    
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="projects" class="home-section wg-portfolio  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Projects</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+
+  
+
+    
+
+    
+    
+    
+    
+      
+    
+
+    <span class="d-none default-project-filter">*</span>
+
+    
+    
+    <div class="project-toolbar">
+      <div class="project-filters">
+        <div class="btn-toolbar">
+          <div class="btn-group flex-wrap">
+            
+              
+              
+              
+                
+              
+              <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
+            
+              
+              
+              
+              <a href="#" data-filter=".js-id-Active" class="btn btn-primary btn-lg">Active</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+
+  <div class="isotope projects-container js-layout-masonry ">
+
+    
+    
+      
+    
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Active">
+  <div class="card">
+    
+    
+    <a href="/project/renais/"  class="card-image hover-overlay">
+      <img src="/project/renais/featured_hucc5c8637150fbe75f94b7bb7676a9859_9165_550x0_resize_lanczos_3.png" alt="Residue Number Systems for Cryptography" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/renais/" >Residue Number Systems for Cryptography</a></h4>
+
+      
+      <div class="article-style">
+        <p>Faster secure cryptographic software</p>
+      </div>
+      
+
+      
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/renais/#pubs" >
+    <i class="fas fa-folder-open mr-1"></i>
+    Publications
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://cs.au.dk/news-events/pages/2021/dff-grant-to-diego-de-freitas-aranha/" target="_blank" rel="noopener">
+    <i class="fas fa-link mr-1"></i>
+    External link
+  </a>
+
+
+
+
+
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Active">
+  <div class="card">
+    
+    
+    <a href="/project/mobisec/"  class="card-image hover-overlay">
+      <img src="/project/mobisec/featured_hud05e192f839f00a1844372196f68f300_2444_550x0_resize_lanczos_3.png" alt="Mobile Security" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/mobisec/" >Mobile Security</a></h4>
+
+      
+      <div class="article-style">
+        <p>Security analysis of MitID and other mobile apps</p>
+      </div>
+      
+
+      
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/mobisec/#pubs" >
+    <i class="fas fa-folder-open mr-1"></i>
+    Publications
+  </a>
+
+
+
+
+
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Active">
+  <div class="card">
+    
+    
+    <a href="/project/verics/"  class="card-image hover-overlay">
+      <img src="/project/verics/featured_hud4509d3a88ba1268fe03a43820cc2538_28927_550x0_resize_lanczos_3.png" alt="Verifiable Cryptographic Software" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/verics/" >Verifiable Cryptographic Software</a></h4>
+
+      
+      <div class="article-style">
+        <p>High-assurance cryptography</p>
+      </div>
+      
+
+      
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/verics/#pubs" >
+    <i class="fas fa-folder-open mr-1"></i>
+    Publications
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://digit.au.dk/research-projects/verifiable-cryptographic-software" target="_blank" rel="noopener">
+    <i class="fas fa-link mr-1"></i>
+    External link
+  </a>
+
+
+
+
+
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item ">
+  <div class="card">
+    
+    
+    <a href="/project/evoting/"  class="card-image hover-overlay">
+      <img src="/project/evoting/featured_hu12c4ee106904f6ff2b756affd5b71123_28240_550x0_resize_q75_lanczos.jpg" alt="Electronic Voting" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/evoting/" >Electronic Voting</a></h4>
+
+      
+      <div class="article-style">
+        <p>Security analysis of the Brazilian voting machines</p>
+      </div>
+      
+
+      
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/evoting/#pubs" >
+    <i class="fas fa-folder-open mr-1"></i>
+    Publications
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.urnaeletronica.info" target="_blank" rel="noopener">
+    <i class="fas fa-link mr-1"></i>
+    External link
+  </a>
+
+
+
+
+
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item ">
+  <div class="card">
+    
+    
+    <a href="/project/ban/"  class="card-image hover-overlay">
+      <img src="/project/ban/featured_hu3f4d3b0e14859dcd39b83d09ebff378e_16524_550x0_resize_lanczos_3.png" alt="Blockchain Academy Network" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/ban/" >Blockchain Academy Network</a></h4>
+
+      
+      <div class="article-style">
+        <p>Training materials and use cases for secure blockchain applications</p>
+      </div>
+      
+
+      
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ban/#pubs" >
+    <i class="fas fa-folder-open mr-1"></i>
+    Publications
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://blockchainacademy.dk/" target="_blank" rel="noopener">
+    <i class="fas fa-link mr-1"></i>
+    External link
+  </a>
+
+
+
+
+
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item ">
+  <div class="card">
+    
+    
+    <a href="/project/cryptoiot/"  class="card-image hover-overlay">
+      <img src="/project/cryptoiot/featured_huda3b1fddb01c180ec38b296124286af5_33453_550x0_resize_lanczos_3.png" alt="Crypto for IoT" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/cryptoiot/" >Crypto for IoT</a></h4>
+
+      
+      <div class="article-style">
+        <p>Efficient and Secure Cryptography for IoT</p>
+      </div>
+      
+
+      
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cryptoiot/#pubs" >
+    <i class="fas fa-folder-open mr-1"></i>
+    Publications
+  </a>
+
+
+
+
+
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item ">
+  <div class="card">
+    
+    
+    <a href="/project/e2ee/"  class="card-image hover-overlay">
+      <img src="/project/e2ee/featured_hu9fb43c2961aab5462ea6439cb1caa90f_42824_550x0_resize_q75_lanczos.jpg" alt="Encryption Policy" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/e2ee/" >Encryption Policy</a></h4>
+
+      
+      <div class="article-style">
+        <p>Strong/end-to-end encryption policy debate</p>
+      </div>
+      
+
+      
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/e2ee/#pubs" >
+    <i class="fas fa-folder-open mr-1"></i>
+    Publications
+  </a>
+
+
+
+
+
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item ">
+  <div class="card">
+    
+    
+    <a href="/project/lara/"  class="card-image hover-overlay">
+      <img src="/project/lara/featured_hu84e93aea19e196f954ce947d786f9da7_30296_550x0_resize_lanczos_3.png" alt="Private ML" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/lara/" >Private ML</a></h4>
+
+      
+      <div class="article-style">
+        <p>Machine learning over encrypted data using homomorphic encryption</p>
+      </div>
+      
+
+      
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/lara/#pubs" >
+    <i class="fas fa-folder-open mr-1"></i>
+    Publications
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://services.google.com/fh/files/events/latin_america_google_research_awards_recipients.pdf" target="_blank" rel="noopener">
+    <i class="fas fa-link mr-1"></i>
+    External link
+  </a>
+
+
+
+
+
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item ">
+  <div class="card">
+    
+    
+    <a href="/project/pufs/"  class="card-image hover-overlay">
+      <img src="/project/pufs/featured_hu0c902a82ed9cacde346808922facdc3c_9535_550x0_resize_lanczos_3.png" alt="PUFs for SoCs" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/pufs/" >PUFs for SoCs</a></h4>
+
+      
+      <div class="article-style">
+        <p>Physical Unclonable Functions for SoC Devices</p>
+      </div>
+      
+
+      
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/pufs/#pubs" >
+    <i class="fas fa-folder-open mr-1"></i>
+    Publications
+  </a>
+
+
+
+
+
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item ">
+  <div class="card">
+    
+    
+    <a href="/project/secexec/"  class="card-image hover-overlay">
+      <img src="/project/secexec/featured_hud1b58bde0c64719f85bf30f8347079c2_8284_550x0_resize_lanczos_3.png" alt="SecExec" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/secexec/" >SecExec</a></h4>
+
+      
+      <div class="article-style">
+        <p>Secure execution of cryptographic algorithms</p>
+      </div>
+      
+
+      
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/secexec/#pubs" >
+    <i class="fas fa-folder-open mr-1"></i>
+    Publications
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://bv.fapesp.br/en/auxilios/89946/secure-execution-of-cryptographic-algorithms/" target="_blank" rel="noopener">
+    <i class="fas fa-link mr-1"></i>
+    External link
+  </a>
+
+
+
+
+
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item ">
+  <div class="card">
+    
+    
+    <a href="/project/youinspect/"  class="card-image hover-overlay">
+      <img src="/project/youinspect/featured_hu9a29588e9235b0718482208af90c70a9_18806_550x0_resize_lanczos_3.png" alt="YouInspect" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/youinspect/" >YouInspect</a></h4>
+
+      
+      <div class="article-style">
+        <p>Crowdsourced verification of election results</p>
+      </div>
+      
+
+      
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/youinspect/#pubs" >
+    <i class="fas fa-folder-open mr-1"></i>
+    Publications
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/vocefiscal/" target="_blank" rel="noopener">
+    <i class="fas fa-link mr-1"></i>
+    External link
+  </a>
+
+
+
+
+
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Active">
+  <div class="card">
+    
+    
+    <a href="/project/relic/"  class="card-image hover-overlay">
+      <img src="/project/relic/featured_hu330c28b618acf28f9af47954a89f2b71_6322_550x0_resize_lanczos_3.png" alt="RELIC is an Efficient LIbrary for Cryptography" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/relic/" >RELIC is an Efficient LIbrary for Cryptography</a></h4>
+
+      
+      <div class="article-style">
+        <p>A meta-toolkit to build fast crypto libraries</p>
+      </div>
+      
+
+      
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/relic/#pubs" >
+    <i class="fas fa-folder-open mr-1"></i>
+    Publications
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/relic-toolkit/relic" target="_blank" rel="noopener">
+    <i class="fas fa-link mr-1"></i>
+    External link
+  </a>
+
+
+
+
+
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+  </div>
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="supervision" class="home-section wg-blank  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Supervision</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12 col-lg-8">
+    <p>Currently (co-)supervised PhD students:</p>
+<ul>
+<li>Marius Aardal (with Bas Spitters)</li>
+<li>Antonio Guimarães Jr. (co- with Edson Borin)</li>
+<li>Benjamin Salling Hvaas (with Bas Spitters)</li>
+<li>Pedro Geraldo Morelli Rodrigues Alves, now at <a href="https://www.zama.ai" target="_blank" rel="noopener">Zama</a></li>
+</ul>
+<p>Past PhD students:</p>
+<ul>
+<li>Akira Takahashi (co- with Claudio Orlandi), graduated 2022, now postdoc at <a href="https://protocol.ai/" target="_blank" rel="noopener">Protocol Labs</a></li>
+<li>Jheyne Nayara Ortiz (co- with Ricardo Dahab), graduated 2022, now postdoc at <a href="https://www.ic.unicamp.br" target="_blank" rel="noopener">UNICAMP</a></li>
+<li>Amanda Cristina Davi Resende, graduated 2021, now faculty at <a href="https://catalao.ufg.br/" target="_blank" rel="noopener">UFCAT</a></li>
+<li>Narcise Bang Mbiang (co- with Emmanuel Fouotsa), graduated 2020</li>
+<li>Caio Hoffman (co- with Guido Araujo and Mario Côrtes), graduated 2017, now Hardware Engineer at <a href="https://www.intrinsic-id.com/" target="_blank" rel="noopener">Intrinsic ID</a></li>
+<li>Eduardo Moraes de Morais, (co- with Ricardo Dahab), graduated 2015, now Cryptographic Engineer at <a href="https://protocol.ai/" target="_blank" rel="noopener">Protocol Labs</a></li>
+</ul>
+<p>Past MSc. students:</p>
+<ul>
+<li><a href="https://cs.au.dk/da/uddannelsedatalogi/kandidatuddannelser/uddannede-kandidater-i-datalogi" target="_blank" rel="noopener">15 students</a> at the Department of Computer science</li>
+<li>3 students at the <a href="https://masters.au.dk/" target="_blank" rel="noopener">Department of Mathematics</a></li>
+<li><a href="https://lattes.cnpq.br/9788199690491510" target="_blank" rel="noopener">8 students</a> at University of Brasília and University of Campinas</li>
+</ul>
+<p>Past Postdocs:</p>
+<ul>
+<li>Karina Mochetti, now faculty at <a href="https://www.cs.ubc.ca/people/karina-mochetti" target="_blank" rel="noopener">UBC</a></li>
+</ul>
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="service" class="home-section wg-blank  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Service</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12 col-lg-8">
+    <ul>
+<li>Co-Editor in Chief of <a href="https://tches.iacr.org/" target="_blank" rel="noopener">TCHES 2023</a> and Program co-Chair of <a href="https://ches.iacr.org/2023" target="_blank" rel="noopener">CHES 2023</a> (with Marcel Medwed)</li>
+<li>Editorial Board Member of <a href="https://tches.iacr.org/" target="_blank" rel="noopener">TCHES</a> (2017-2019, 2021-2022), <a href="https://lib.jucs.org/" target="_blank" rel="noopener">JUCS</a> and <a href="https://www.cambridge.org/core/journals/experimental-results" target="_blank" rel="noopener">Experimental Results</a></li>
+<li>Steering Committee Member of <a href="https://dblp.org/db/conf/latincrypt/index.html" target="_blank" rel="noopener">LATINCRYPT</a></li>
+<li>Program co-Chair of <a href="https://dblp.org/db/conf/latincrypt/latincrypt2014.html" target="_blank" rel="noopener">LATINCRYPT 2014</a> (with Alfred Menezes)</li>
+<li>Program co-Chair of <a href="http://www.sbseg2014.dcc.ufmg.br/eng/" target="_blank" rel="noopener">SBSEG 2014</a> (with Marinho P. Barcellos)</li>
+<li>Program co-Chair and co-Founder of <a href="https://sbseg2021.ufpa.br/en/chamada_wte.php" target="_blank" rel="noopener">Workshop on Election Technology (WTE)</a> (with Jeroen van de Graaf)</li>
+<li>Program Committee Member of
+<ul>
+<li><a href="https://ches.iacr.org/2022" target="_blank" rel="noopener">CHES 2022</a>, <a href="https://ches.iacr.org/2021/" target="_blank" rel="noopener">CHES 2021</a>, <a href="https://ches.iacr.org/2017/" target="_blank" rel="noopener">CHES 2017</a>, <a href="https://ches.iacr.org/2019/" target="_blank" rel="noopener">CHES 2019</a>, <a href="https://ches.iacr.org/2018/" target="_blank" rel="noopener">CHES 2018</a></li>
+<li><a href="https://www.cosade.org/" target="_blank" rel="noopener">COSADE 2022</a>, <a href="http://www.cosade.org/" target="_blank" rel="noopener">COSADE 2021</a>,</li>
+<li><a href="https://fc21.ifca.ai/" target="_blank" rel="noopener">FC 2021</a>, <a href="https://fc20.ifca.ai/" target="_blank" rel="noopener">FC 2020</a>, <a href="https://fc19.ifca.ai/" target="_blank" rel="noopener">FC 2019</a>, <a href="https://fc18.ifca.ai/" target="_blank" rel="noopener">FC 2018</a>, <a href="https://fc17.ifca.ai/" target="_blank" rel="noopener">FC 2017</a></li>
+<li><a href="https://www.sac2021.ca/" target="_blank" rel="noopener">SAC 2021</a>, <a href="http://cifs.servicelaboratory.ch/" target="_blank" rel="noopener">SAC 2020</a>, <a href="https://sacworkshop.org/SAC19/index.html" target="_blank" rel="noopener">SAC 2019</a>, <a href="https://sacworkshop.org/SAC18/SAC2018.html" target="_blank" rel="noopener">SAC 2018</a>,</li>
+<li><a href="http://cse.iitkgp.ac.in/conf/SPACE2021/" target="_blank" rel="noopener">SPACE 2021</a>, <a href="https://dblp.org/db/conf/space/space2017.html" target="_blank" rel="noopener">SPACE 2017</a></li>
+<li><a href="https://www.sbac-pad2021.dcc.ufmg.br/wcc/" target="_blank" rel="noopener">WCC 2021</a></li>
+<li><a href="https://www.waifi.org/" target="_blank" rel="noopener">WAIFI 2020</a>, <a href="https://waifi.org/" target="_blank" rel="noopener">WAIFI 2018</a></li>
+<li><a href="https://www.cfail.org/" target="_blank" rel="noopener">CFAIL 2020</a></li>
+<li><a href="https://cardis2020.its.uni-luebeck.de/" target="_blank" rel="noopener">CARDIS 2020</a></li>
+<li><a href="http://cifs.servicelaboratory.ch/" target="_blank" rel="noopener">CIFS 2020</a></li>
+<li><a href="https://pkc.iacr.org/2019/" target="_blank" rel="noopener">PKC 2019</a>, <a href="https://pkc.iacr.org/2018/" target="_blank" rel="noopener">PKC 2018</a></li>
+<li><a href="https://latincrypt2019.cryptojedi.org/index.shtml" target="_blank" rel="noopener">LATINCRYPT 2019</a>, <a href="https://dblp.org/db/conf/latincrypt/latincrypt2017" target="_blank" rel="noopener">LATINCRYPT 2017</a>, <a href="https://dblp.org/db/conf/latincrypt/latincrypt2015" target="_blank" rel="noopener">LATINCRYPT 2015</a></li>
+<li><a href="https://www.isical.ac.in/~indocrypt2019/#/" target="_blank" rel="noopener">INDOCRYPT 2019</a>, <a href="https://www.isical.ac.in/~indocrypt/" target="_blank" rel="noopener">INDOCRYPT 2018</a>, <a href="http://indocrypt2016.iiitd.edu.in/" target="_blank" rel="noopener">INDOCRYPT 2016</a></li>
+<li><a href="https://ccnc2019.ieee-ccnc.org/" target="_blank" rel="noopener">CCNC 2019</a>, <a href="https://ccnc2018.ieee-ccnc.org/" target="_blank" rel="noopener">CCNC 2018</a>, <a href="https://ccnc2017.ieee-ccnc.org/" target="_blank" rel="noopener">CCNC 2017</a></li>
+<li><a href="https://wirelessafrica19.trackchair.com/" target="_blank" rel="noopener">IEEE Wireless Africa 2019</a></li>
+<li><a href="https://sbseg2018.imd.ufrn.br/en/index.html" target="_blank" rel="noopener">SBSEG 2018</a>, <a href="https://en.sbseg2017.redes.unb.br/" target="_blank" rel="noopener">SBSEG 2017</a>, <a href="https://sbseg2016.ic.uff.br/en/index.php" target="_blank" rel="noopener">SBSEG 2016</a>, <a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=44560&amp;copyownerid=39428" target="_blank" rel="noopener">SBSEG 2015</a>, <a href="http://sbseg2013.icomp.ufam.edu.br/index.php/en/" target="_blank" rel="noopener">SBSEG 2013</a>, <a href="https://sbseg2012.ppgia.pucpr.br/en/index.php" target="_blank" rel="noopener">SBSEG 2012</a></li>
+<li><a href="https://www.kangacrypt.info/" target="_blank" rel="noopener">KANGACRYPT 2018</a></li>
+<li><a href="https://www.sinconf.org/sin2018/lightsec.php" target="_blank" rel="noopener">LightSec 2018</a></li>
+<li><a href="https://cy2sec.comm.eng.osaka-u.ac.jp/acns2017/index.html" target="_blank" rel="noopener">ACNS 2017</a></li>
+<li><a href="https://manoa.hawaii.edu/isc2016/" target="_blank" rel="noopener">ISC 2016</a></li>
+<li><a href="https://www.science-community.org/en/node/85731" target="_blank" rel="noopener">ICFCNA 2014</a></li>
+<li><a href="https://dblp.org/rec/conf/pairing/2013.html" target="_blank" rel="noopener">PAIRING 2013</a></li>
+</ul>
+</li>
+<li>Full reviewer profile at <a href="https://publons.com/researcher/610246/diego-f-aranha/" target="_blank" rel="noopener">Publons</a></li>
+</ul>
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+  </p>
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.51ce98c0d12d1f3f97913eed085926f4.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

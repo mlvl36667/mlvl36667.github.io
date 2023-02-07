@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Luiz F. Bittencourt | Diego F. Aranha</title>
+    <link>/authors/luiz-f.-bittencourt/</link>
+      <atom:link href="/authors/luiz-f.-bittencourt/index.xml" rel="self" type="application/rss+xml" />
+    <description>Luiz F. Bittencourt</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_512x512_fill_lanczos_center_3.png</url>
+      <title>Luiz F. Bittencourt</title>
+      <link>/authors/luiz-f.-bittencourt/</link>
+    </image>
+    
+    <item>
+      <title>Fog orchestration for the Internet of Everything: state-of-the-art and research challenges</title>
+      <link>/publication/velasquezaasabl18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/velasquezaasabl18/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
