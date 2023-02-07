@@ -30,7 +30,7 @@
       "objectID":"2525497d367e79493fd32b198b28f040",
       "permalink":"/publication/atomicswap2022/",
       "publishdate":"0001-01-01T00:00:00Z",
-      "relpermalink":"/",
+      "relpermalink":"/publication/atomicswap2022/",
       "section":"authors",
       "summary":"The classical way to exchange digital assets is to use a centralized exchange, which goes against one of the main organizing principles of crypto currencies, namely the decentralized property. There has been an increased interest in finding alternative solutions to eliminate the need for these centralized crypto currency exchanges. Atomic swaps enable digital asset holders to exchange their tokens without intermediaries. Setting aside the risk associated with the centralized exchange, converting between digital assets on these platforms is very convenient and attracts users in massive quantities. Once a sell (or buy) order is placed and accepted by the platform and a matching buy (or sell) order is found there is no way to waive the commitment and the order is executed no matter what. The situation is altered when one uses atomic swaps, due to the nature of the atomic processes. If a party can abandon the deal at certain stages the atomic swap becomes an option. These options have been extensively studied in the past with various models to simulate the changes in the underlying stock. In the current work, we simulate strategic behaviors on historical market data, analyse crypto currency atomic swaps using the Merton Jump Diffusion model and propose a theoretical solution to increase the success rates in atomic swaps. The aim of this analysis is not forecasting, but rather a more accurate description of the optionality in atomic swaps.",
       "tags":null,
