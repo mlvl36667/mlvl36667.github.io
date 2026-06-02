@@ -65,6 +65,10 @@ a:hover { text-decoration: underline; }
 #supervision ul { list-style: disc; padding-left: 1.2rem; }
 #supervision li { padding: 0.2rem 0; }
 
+/* Teaching & Supervision grid */
+.teaching-supervision-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+.muted { color: var(--text-muted); font-size: 0.9rem; }
+
 /* Footer */
 .footer { padding: 2rem 0; border-top: 1px solid var(--border); text-align: center; color: var(--text-muted); font-size: 0.85rem; }
 
@@ -77,4 +81,5 @@ a:hover { text-decoration: underline; }
   .about-photo { order: -1; }
   .interests li { text-align: left; }
   .timeline { text-align: left; }
+  .teaching-supervision-grid { grid-template-columns: 1fr; }
 }
