@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>San Antonio – BCCA 2022 · Bence Ladóczki</title>
+  <link rel="icon" type="image/png" href="/media/icon_hu02882e91b61d24b9b2e82a121138acdf_634_32x32_fill_lanczos_center_3.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0.5rem; margin-top: 1.5rem; }
+    .gallery img { width: 100%; height: 220px; object-fit: cover; border-radius: 4px; cursor: pointer; transition: transform 0.2s; }
+    .gallery img:hover { transform: scale(1.02); }
+    .back-link { display: inline-block; margin-bottom: 1rem; font-size: 0.9rem; }
+    .lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 999; align-items: center; justify-content: center; }
+    .lightbox.active { display: flex; }
+    .lightbox img { max-width: 90vw; max-height: 90vh; object-fit: contain; }
+    .lightbox-close { position: absolute; top: 1rem; right: 1.5rem; color: #fff; font-size: 2rem; cursor: pointer; background: none; border: none; }
+  </style>
+</head>
+<body>
+<main>
+  <section class="section">
+    <div class="container">
+      <a href="/#travels" class="back-link">← Back to Travels</a>
+      <h1 class="section-title">San Antonio – BCCA · 2022</h1>
+      <div class="gallery">
+        <img src="/media/travels/san_antonio_2022/IMG_0850.jpeg" alt="San Antonio BCCA 2022" loading="lazy">
+        <img src="/media/travels/san_antonio_2022/IMG_0851.jpeg" alt="San Antonio BCCA 2022" loading="lazy">
+        <img src="/media/travels/san_antonio_2022/IMG_1271.JPG" alt="San Antonio BCCA 2022" loading="lazy">
+        <img src="/media/travels/san_antonio_2022/IMG_9807.JPG" alt="San Antonio BCCA 2022" loading="lazy">
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img src="" alt="">
+</div>
+
+<script>
+const lb = document.getElementById('lightbox');
+document.querySelector('.gallery').addEventListener('click', e => {
+  if (e.target.tagName === 'IMG') { lb.querySelector('img').src = e.target.src; lb.classList.add('active'); }
+});
+lb.addEventListener('click', () => lb.classList.remove('active'));
+</script>
+</body>
+</html>
