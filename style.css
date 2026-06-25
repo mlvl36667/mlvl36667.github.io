@@ -87,6 +87,12 @@ a:hover { text-decoration: underline; }
 .teaching-supervision-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
 .muted { color: var(--text-muted); font-size: 0.9rem; }
 
+/* Travels */
+.travels-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.5rem; }
+.travel-year h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.4rem; color: var(--accent); }
+.travel-year ul { list-style: none; padding: 0; }
+.travel-year li { padding: 0.2rem 0; font-size: 0.92rem; color: var(--text-muted); }
+
 /* Footer */
 .footer { padding: 2rem 0; border-top: 1px solid var(--border); text-align: center; color: var(--text-muted); font-size: 0.85rem; }
 
