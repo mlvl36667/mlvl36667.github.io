@@ -1,0 +1,13 @@
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0.5rem; margin-top: 1.5rem; }
+.gallery img { width: 100%; height: 220px; object-fit: cover; border-radius: 4px; cursor: pointer; transition: transform 0.2s; }
+.gallery img:hover { transform: scale(1.02); }
+.back-link { display: inline-block; margin-bottom: 1rem; font-size: 0.9rem; }
+.lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.93); z-index: 999; align-items: center; justify-content: center; }
+.lightbox.active { display: flex; }
+.lightbox img { max-width: 85vw; max-height: 85vh; object-fit: contain; }
+.lightbox-close { position: absolute; top: 1rem; right: 1.5rem; color: #fff; font-size: 2rem; cursor: pointer; background: none; border: none; }
+.lightbox-prev, .lightbox-next { position: absolute; top: 50%; transform: translateY(-50%); color: #fff; font-size: 2.5rem; cursor: pointer; background: none; border: none; padding: 1rem; user-select: none; }
+.lightbox-prev { left: 1rem; }
+.lightbox-next { right: 1rem; }
+.lightbox-prev:hover, .lightbox-next:hover { color: #ccc; }
+.lightbox-counter { position: absolute; bottom: 1.5rem; left: 50%; transform: translateX(-50%); color: #aaa; font-size: 0.9rem; }

@@ -9,16 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="/style.css">
-  <style>
-    .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0.5rem; margin-top: 1.5rem; }
-    .gallery img { width: 100%; height: 220px; object-fit: cover; border-radius: 4px; cursor: pointer; transition: transform 0.2s; }
-    .gallery img:hover { transform: scale(1.02); }
-    .back-link { display: inline-block; margin-bottom: 1rem; font-size: 0.9rem; }
-    .lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 999; align-items: center; justify-content: center; }
-    .lightbox.active { display: flex; }
-    .lightbox img { max-width: 90vw; max-height: 90vh; object-fit: contain; }
-    .lightbox-close { position: absolute; top: 1rem; right: 1.5rem; color: #fff; font-size: 2rem; cursor: pointer; background: none; border: none; }
-  </style>
+  <link rel="stylesheet" href="/gallery.css">
 </head>
 <body>
 <main>
@@ -47,15 +38,12 @@
 
 <div class="lightbox" id="lightbox">
   <button class="lightbox-close" aria-label="Close">&times;</button>
+  <button class="lightbox-prev" aria-label="Previous">&#10094;</button>
+  <button class="lightbox-next" aria-label="Next">&#10095;</button>
   <img src="" alt="">
+  <span class="lightbox-counter"></span>
 </div>
 
-<script>
-const lb = document.getElementById('lightbox');
-document.querySelector('.gallery').addEventListener('click', e => {
-  if (e.target.tagName === 'IMG') { lb.querySelector('img').src = e.target.src; lb.classList.add('active'); }
-});
-lb.addEventListener('click', () => lb.classList.remove('active'));
-</script>
+<script src="/gallery.js"></script>
 </body>
 </html>
