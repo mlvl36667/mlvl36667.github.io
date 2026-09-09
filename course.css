@@ -63,3 +63,49 @@
   background: var(--bg-alt); border: 1px solid var(--border);
   border-radius: 999px; padding: 0.2rem 0.7rem;
 }
+
+/* Exam topics widget */
+.exam-topics {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+.exam-title { font-size: 1.3rem; font-weight: 700; margin-bottom: 0.3rem; }
+.exam-intro { margin-bottom: 1.2rem; }
+
+.topic-list { list-style: none; padding: 0; margin: 0; counter-reset: topic; display: flex; flex-direction: column; gap: 0.6rem; }
+.topic-list li { margin: 0; }
+
+.topic {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  overflow: hidden;
+}
+.topic summary {
+  cursor: pointer;
+  padding: 0.85rem 1.1rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  transition: background 0.15s;
+}
+.topic summary::-webkit-details-marker { display: none; }
+.topic summary::before {
+  content: "+";
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.1rem;
+  width: 1rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+.topic[open] summary::before { content: "\2212"; } /* minus */
+.topic summary:hover { background: var(--bg-alt); }
+.topic[open] summary { border-bottom: 1px solid var(--border); }
+
+.topic-body { padding: 0.9rem 1.1rem; }
+.topic-body p { margin: 0; font-size: 0.9rem; color: var(--text-muted); }
