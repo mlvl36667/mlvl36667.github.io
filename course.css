@@ -13,23 +13,42 @@
 }
 .week:hover { border-color: var(--accent); box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
 
-.week-head { display: flex; align-items: baseline; gap: 0.8rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+.week-head { display: flex; align-items: baseline; gap: 0.8rem; flex-wrap: wrap; margin-bottom: 0.8rem; }
 .week-num {
-  font-size: 0.78rem; font-weight: 600; color: var(--accent);
+  font-size: 0.85rem; font-weight: 700; color: var(--accent);
   background: var(--bg-alt); border: 1px solid var(--border);
-  border-radius: 999px; padding: 0.15rem 0.7rem; white-space: nowrap;
+  border-radius: 999px; padding: 0.2rem 0.9rem; white-space: nowrap;
 }
-.week-title { font-size: 1.05rem; font-weight: 600; margin: 0; }
 
-.week-keywords { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.4rem; }
+/* Two sessions per week */
+.sessions { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.session {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.9rem 1rem;
+}
+.session-num {
+  display: inline-block;
+  font-size: 0.72rem; font-weight: 600; letter-spacing: 0.02em;
+  text-transform: uppercase; color: var(--text-muted);
+  margin-bottom: 0.35rem;
+}
+.session-title { font-size: 1rem; font-weight: 600; margin: 0 0 0.4rem; }
+
+.week-keywords { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.4rem; }
 .week-keywords strong { color: var(--text); font-weight: 600; }
 
+.week-notes { margin: 0; }
 .week-notes a { font-size: 0.88rem; font-weight: 500; }
 
-/* Weeks without a topic yet */
-.week-tbd { opacity: 0.6; }
-.week-tbd:hover { border-color: var(--border); box-shadow: none; }
-.week-tbd .week-title { font-weight: 500; color: var(--text-muted); font-style: italic; }
+/* Sessions without a topic yet */
+.session-tbd { opacity: 0.55; }
+.session-tbd .session-title { font-weight: 500; color: var(--text-muted); font-style: italic; }
+
+@media (max-width: 600px) {
+  .sessions { grid-template-columns: 1fr; }
+}
 
 /* Individual note page */
 .note-body { max-width: 720px; }
