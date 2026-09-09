@@ -46,6 +46,21 @@
 }
 
 /* Embedded PDF */
-.pdf-embed { margin-top: 1rem; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
-.pdf-embed object { display: block; width: 100%; height: 80vh; min-height: 500px; border: 0; }
-.pdf-embed p { padding: 1.5rem; margin: 0; color: var(--text-muted); }
+.pdf-embed {
+  margin-top: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  /* break out of the narrow .note-body column for a wider viewer */
+  width: min(1100px, 92vw);
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.pdf-embed iframe {
+  display: block;
+  width: 100%;
+  height: 85vh;
+  min-height: 600px;
+  border: 0;
+}
+.pdf-fallback { margin-top: 0.6rem; }
