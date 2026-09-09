@@ -26,6 +26,11 @@
 
 .week-notes a { font-size: 0.88rem; font-weight: 500; }
 
+/* Weeks without a topic yet */
+.week-tbd { opacity: 0.6; }
+.week-tbd:hover { border-color: var(--border); box-shadow: none; }
+.week-tbd .week-title { font-weight: 500; color: var(--text-muted); font-style: italic; }
+
 /* Individual note page */
 .note-body { max-width: 720px; }
 .note-body h2 { font-size: 1.15rem; font-weight: 600; margin-top: 1.6rem; margin-bottom: 0.5rem; }
